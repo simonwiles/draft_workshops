@@ -1,4 +1,4 @@
-# colab_workshops
+# draft_workshops
 
 **Please Note**: This is a scratchpad repository for scraps and works-in-progress.  “Live” versions of workshops taught in the CIDR workshop series (by me or my colleagues) can be found in the [CIDR Workshops repo](https://github.com/sul-cidr/Workshops).
 
