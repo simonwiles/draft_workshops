@@ -49,21 +49,28 @@ Go to [https://openrefine.org/download.html](https://openrefine.org/download.htm
 
 ### Expressions
 * Custom facets with expressions
+* Regex
+* Jython
 * https://github.com/OpenRefine/OpenRefine/wiki/Recipes
+
 
 ### Clustering on multi-valued fields
 * splitting and joining multi-valued cells
 
-## UI Features
-* Undo/Redo and exporting operations
-    - change lists can be applied to data using (e.g.?) Python bindings, which is pretty cool :)
+
+## Saving Projects and Exporting Data
+* Saving Projects
+* Exporting Data
+    - tabular export (C/TSV, Excel, HTML)
+    - as SQL
+    - templating for (e.g.) JSON output
+* Pipe-lining for iterable and reproducible workflows
+    - Undo/Redo and exporting operations
+        + change lists can be applied to data using (e.g.?) Python bindings, which is pretty cool :)
 * Permalinks
 
 
-## Saving Projects and Exporting Data
-
-
 ## Advanced Topics
-* Data Reconciliation
+* Data Reconciliation (using external authority)
 * Plugins / Extensions
 
