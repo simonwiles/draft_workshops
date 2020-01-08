@@ -3,8 +3,7 @@
 [![OpenRefine](https://raw.githubusercontent.com/simonwiles/draft_workshops/OpenRefine/OpenRefine/OpenRefine.440x104.png)](https://cidr.stanford.edu)
 [![Center for Interdisciplinary Digital Research @ Stanford](https://raw.githubusercontent.com/sul-cidr/Workshops/master/cidr-logo.no-text.240x140.png)](https://cidr.stanford.edu)
 
-[OpenRefine](https://openrefine.org/) is:
-> A free, open source, powerful tool for working with messy data.
+OpenRefine is a powerful free and open source tool for wrangling data: exploring it, cleaning it, manipulating it, and transforming it from one format into another.  In this hands-on workshop we will introduce OpenRefine’s features and cover some of the ways it can be used to tame unruly datasets.  You'll learn how to search, sort, filter, and facet your data, how to fix inconsistencies and errors, and how to create semi-automated workflows for producing clean and consistent datasets for your research.  Even if you don’t think of your research materials as data, OpenRefine can help you clean up and make sense of spreadsheets you’ve created, text you’ve scraped from websites, and other structured sources.
 
 
 ## Installing OpenRefine
@@ -24,7 +23,8 @@ Go to [https://openrefine.org/download.html](https://openrefine.org/download.htm
 * configuring import in the preview
 
 ## Exploring Data: Sorting, Filtering, and Faceting
-
+* Sorting
+* Filtering
 * Facets
     - Text/Numeric/Date facets
     - Can't get scatterplot facets to work yet
@@ -32,6 +32,9 @@ Go to [https://openrefine.org/download.html](https://openrefine.org/download.htm
 
 
 ## Manipulating Data: Cleaning, Modifying, and Augmenting
+
+### Row-wise Manipulation
+* Flagging and then faceting
 
 ### Editing Multiple Values at Once
 
@@ -59,7 +62,7 @@ Go to [https://openrefine.org/download.html](https://openrefine.org/download.htm
 
 
 ## Saving Projects and Exporting Data
-* Saving Projects
+* Saving, Editing, and Importing Projects
 * Exporting Data
     - tabular export (C/TSV, Excel, HTML)
     - as SQL
