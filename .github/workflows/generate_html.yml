@@ -1,0 +1,23 @@
+name: Generate Workshop HTML from Markdown
+
+on: [push]
+
+jobs:
+  generate-html:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        repository: simonwiles/workshop-html-generator
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run a one-line script
+      run: ls -alh
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
