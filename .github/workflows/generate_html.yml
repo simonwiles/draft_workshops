@@ -8,12 +8,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/checkout@v2
+    - name: Checkout Workshops Repo
+      uses: actions/checkout@v2
+      with:
+        path: workshops
+    - name: Checkout HTML generator
+      uses: actions/checkout@v2
       with:
         repository: simonwiles/workshop-html-generator
+        path: html-generator
     - name: Install dependencies
       run: |
+        cd html-generator
         python3 -m pip install --upgrade pip
         pip3 install setuptools
         pip3 install -r requirements.txt
@@ -21,5 +27,6 @@ jobs:
       run: ls -alh
     - name: Run a multi-line script
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+        ls -alh
+        cd ..
+        ls -alh
