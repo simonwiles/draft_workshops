@@ -23,10 +23,8 @@ jobs:
         python3 -m pip install --upgrade pip
         pip3 install setuptools
         pip3 install -r requirements.txt
-    - name: Run a one-line script
-      run: ls -alh
-    - name: Run a multi-line script
+    - name: Generate HTML
       run: |
-        ls -alh
-        cd ..
+        cd workshops
+        for i in $(find ./ -iname '*.md'); do python3 ../html-generator/gen_html.py -t ../html-generator/tempalte.html "$i" > "${i%%.md}.html"; done;
         ls -alh
