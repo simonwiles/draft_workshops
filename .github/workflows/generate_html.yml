@@ -28,5 +28,5 @@ jobs:
         ls -alh
         cd workshops
         ls -alh
-        for i in $(find ./ -iname '*.md'); do python3 ../html-generator/gen_html.py -t ../html-generator/tempalte.html "$i" > "${i%%.md}.html"; done;
+        for i in $(find ./ -iname '*.md'); do python3 ../html-generator/gen_html.py -t ../html-generator/template.html "$i" > "${i%%.md}.html"; done;
         ls -alh
