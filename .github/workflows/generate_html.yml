@@ -26,7 +26,11 @@ jobs:
     - name: Generate HTML
       run: |
         cd workshops
-        for i in $(find ./ -iname '*.md'); do echo "Generating $i"; python3 ../html-generator/gen_html.py -t ../html-generator/template.html "$i" > "${i%%.md}.html"; done;
+        for i in $(find ./ -iname '*.md' ! -iname 'README.md'); do
+          echo "Generating $i"; 
+          python3 ../html-generator/gen_html.py -t ../html-generator/template.html "$i" > "${i%%.md}.html";
+          git add "$i";
+        done;
     - name: Commit HTML
       run: |
         cd workshops
