@@ -14,7 +14,7 @@ jobs:
 
   generate-html:
     runs-on: ubuntu-latest
-    if: env.MDFILES
+    if: ${{ env.MDFILES }}
     steps:
     - name: Checkout Workshops Repo
       uses: actions/checkout@v2
