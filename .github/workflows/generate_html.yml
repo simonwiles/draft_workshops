@@ -3,36 +3,36 @@ name: Generate Workshop HTML from Markdown
 on: [push]
 
 jobs:
-  pre-check:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Pre-Check
-        run: |
-          export MDFILES=$(
-            curl --silent https://api.github.com/repos/${{ github.repository }}/commits/${{ github.sha }} | 
-            jq --raw-output '.files[].filename | match(".*(?<!README)\\.md").string');
-          echo "$MDFILES"
           
   generate-html:
     runs-on: ubuntu-latest
-    if: ${{ env.MDFILES }}
     steps:
+    - name: Pre-Check
+      run: |
+        export MDFILES=$(
+          curl --silent https://api.github.com/repos/${{ github.repository }}/commits/${{ github.sha }} | 
+          jq --raw-output '.files[].filename | match(".*(?<!README)\\.md").string');
+        echo "$MDFILES"
     - name: Checkout Workshops Repo
+      if: env.MDFILES
       uses: actions/checkout@v2
       with:
         path: workshops
     - name: Checkout HTML generator
+      if: env.MDFILES
       uses: actions/checkout@v2
       with:
         repository: simonwiles/workshop-html-generator
         path: html-generator
     - name: Install dependencies
+      if: env.MDFILES
       run: |
         cd html-generator
         python3 -m pip install --upgrade pip
         pip3 install setuptools
         pip3 install -r requirements.txt
     - name: Generate HTML
+      if: env.MDFILES
       run: |
         cd workshops
         for i in $MDFILES;
@@ -42,6 +42,7 @@ jobs:
           git add "${i%%.md}.html";
         done;
     - name: Commit HTML
+      if: env.MDFILES
       run: |
         cd workshops
         git config --global user.name "${{ github.actor }}"
