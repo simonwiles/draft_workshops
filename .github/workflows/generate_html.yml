@@ -29,6 +29,7 @@ jobs:
     - name: Remove HTML for deleted markdown files
       if: env.REMOVE
       run: |
+        cd workshops;
         for i in $(echo $MDFILES | jq --raw-output 'select(.status == "removed").filename');
         do
           HTML_FILE="${i%%.md}.html"
@@ -48,14 +49,14 @@ jobs:
     - name: Install dependencies
       if: env.GENERATE
       run: |
-        cd html-generator
-        python3 -m pip install --upgrade pip
-        pip3 install setuptools
-        pip3 install -r requirements.txt
+        cd html-generator;
+        python3 -m pip install --upgrade pip;
+        pip3 install setuptools;
+        pip3 install -r requirements.txt;
     - name: Generate HTML
       if: env.GENERATE
       run: |
-        cd workshops
+        cd workshops;
         for i in $(echo $MDFILES | jq --raw-output 'select(.status != "removed").filename');
         do
           HTML_FILE="${i%%.md}.html"
@@ -67,8 +68,8 @@ jobs:
     - name: Commit HTML
       if: env.MDFILES
       run: |
-        cd workshops
-        git config --global user.name "${{ github.actor }}"
-        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-        git commit -am "Auto-generated HTML"
-        git push
+        cd workshops;
+        git config --global user.name "${{ github.actor }}";
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com";
+        git commit -am "Auto-generated HTML";
+        git push;
