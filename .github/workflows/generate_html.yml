@@ -18,6 +18,7 @@ jobs:
           [[ -n $(echo $MDFILES | jq --raw-output 'select(.status == "removed").filename') ]] && echo "::set-env name=REMOVE::1";
           [[ -n $(echo $MDFILES | jq --raw-output 'select(.status != "removed").filename') ]] && echo "::set-env name=GENERATE::1";
         fi;
+        exit 0;
 
     - name: Checkout Workshops Repo
       if: env.MDFILES
