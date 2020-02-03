@@ -1,4 +1,4 @@
-Woooot!
+Wooooter!
 
 [![Center for Interdisciplinary Digital Research @ Stanford](https://raw.githubusercontent.com/sul-cidr/Workshops/master/cidr-logo.no-text.240x140.png)](https://cidr.stanford.edu)
 
