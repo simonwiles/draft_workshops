@@ -6,7 +6,6 @@ on:
       - master
     paths:
       - '**.md'
-      - '!README.md'
       - '!**/README.md'
 jobs:
 
