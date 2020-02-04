@@ -31,7 +31,7 @@ jobs:
       with:
         path: workshops
 
-    -name: Checkout gh-pages worktree
+    - name: Checkout gh-pages worktree
       run: |
         cd workshops;
         git worktree add -B gh-pages public origin/gh-pages;
