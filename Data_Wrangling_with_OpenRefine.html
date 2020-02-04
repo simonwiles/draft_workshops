@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+  <head prefix="dcterms: http://purl.org/dc/terms/#">
+    <meta charset="utf-8">
+    <title>
+      Data Wrangling with OpenRefine :: CIDR Workshops
+    </title>
+    <meta name="version" content="799c8ae">
+    <meta name="dcterms.modified" content="2020-02-04">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href=
+    "https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro" rel=
+    "stylesheet">
+    <style>
+      html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],figure,blockquote,dl,dd{margin:0}body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed;line-height:1.5}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img{max-width:100%;display:block}article>*+*{margin-top:1em}input,button,textarea,select{font:inherit}:root{--background-color:#f6f6f6;--pale-yellow:rgba(255,255,0,.3);--cardinal:#8c1515;--dark-red:#820000;--process-black:#2e2d29;--text-on-cardinal:#e3dfd5;--sandstone:#d2c295;--sandstone-semi-opaque:rgba(210,194,149,.5);--chocolate:#2F2424;--light-sage:#c7d1c5;--lagunita:#007c92}::selection,a::selection{background:var(--pale-yellow)}a,a::selection{color:var(--dark-red);text-decoration:none}a:hover{color:var(--process-black);text-decoration:underline}p{margin:1em 0}code{margin:0 2px;padding:0 5px;white-space:nowrap;border:1px solid #eaeaea;background-color:white;border-radius:3px;font-family:'Source Sans Mono',monospace;font-size:.9em;user-select:all}h1,h2,h3,h4,h5,h6{font-family:'Source Serif Pro',serif;font-weight:400;line-height:1em;padding-left:1em;text-indent:-1em}h1{font-size:2.5em}h2{font-size:2em}h3{font-size:1.5em}h4{font-size:1.2em}h5{font-size:1em}h6{font-size:.9em}article>ul>* + *{margin-top:.8em}form#sidebar{position:sticky;top:0;left:0}input#open-sidebar:checked ~ #sidebar-content{transform:translateX(0)}input#open-sidebar{transition:all 0.3s;display:none}label[for="open-sidebar"]{transition:all 0.3s;cursor:pointer;position:absolute;top:15px;left:15px;z-index:99;height:22px;width:22px}.spinner{transition:all 0.3s;position:absolute;height:3px;width:100%;background-color:var(--cardinal);user-select:none}.horizontal{transition:all 0.3s;position:relative;float:left;margin-top:3px}.diagonal.part-1{position:relative;transition:all 0.3s;float:left}.diagonal.part-2{transition:all 0.3s;position:relative;float:left;margin-top:3px}input#open-sidebar:checked ~ label[for="open-sidebar"]>.horizontal{transition:all 0.3s;box-sizing:border-box;opacity:0}input#open-sidebar:checked ~ label[for="open-sidebar"]>.diagonal.part-1{transition:all 0.3s;box-sizing:border-box;transform:rotate(135deg);margin-top:8px}input#open-sidebar:checked ~ label[for="open-sidebar"]>.diagonal.part-2{transition:all 0.3s;box-sizing:border-box;transform:rotate(-135deg);margin-top:-9px}#sidebar-content{height:100vh;position:absolute;top:0;left:0;width:250px;transform:translateX(-250px);transition:transform 250ms ease-in-out;background:var(--sandstone);padding-top:48px}.toc ul{margin:0;padding:0 0 0 0.5em}.toc li{list-style:none;cursor:pointer;padding-left:1em;text-indent:-1em;font-size:.9em;margin:.5em 0}.toc li::before{content:"§";color:var(--dark-red);font-size:1.2em;line-height:1em}.toc li a{color:var(--process-black);display:inline-block;padding-left:1em;text-indent:-1em;vertical-align:top;max-width:90%}.toc>ul{padding:0}.toc>ul>li{list-style:none;padding:0 0 0 .5em;text-indent:0;font-size:1.1em}.toc>ul>li::before{display:none}.toc>ul>li>a{margin:0;font-weight:bold;font-family:'Source Serif Pro',serif}body{background-color:var(--background-color);color:var(--process-black);font-family:'Source Sans Pro',sans-serif}main,header>div,.wrapped{margin:0 auto;max-width:90vw;padding:10px 0;width:640px}main{margin:2em auto 0}header>div{align-items:flex-end;display:flex;height:100px;margin:0 auto;max-width:90vw;padding:10px 0;width:640px}header span{font-size:2em;margin:0 10px}header{background-color:var(--cardinal);color:white;padding-bottom:10px}footer{background-color:var(--cardinal);color:var(--text-on-cardinal)}.instruction{background-color:var(--sandstone-semi-opaque);padding:.5em 1em;border-radius:.5em;margin-left:1.5em;margin-right:1.5em;border:1px solid var(--sandstone)}.toclink{color:inherit}.headerlink{margin-left:4px;visibility:hidden}h1:hover .headerlink,h2:hover .headerlink,h3:hover .headerlink,h4:hover .headerlink,h5:hover .headerlink,h6:hover .headerlink{visibility:visible}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="https://cidr.stanford.edu" target="_blank" title=
+        "Center for Interdisciplinary Digital Research @ Stanford University Libraries"><img src=
+        "data:image/png;base64,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"
+        alt="Center for Interdisciplinary Digital Research @ Stanford University Libraries"></a>
+        <span>Workshop Series</span>
+      </div>
+    </header>
+    <form id="sidebar" name="sidebar">
+      <input type="checkbox" id="open-sidebar"> <label for="open-sidebar"><span class=
+      "spinner diagonal part-1">&nbsp;</span> <span class="spinner horizontal">&nbsp;</span>
+      <span class="spinner diagonal part-2">&nbsp;</span></label>
+      <div id="sidebar-content">
+        <div class="toc">
+          <ul>
+            <li>
+              <a href="#data-wrangling-with-openrefine">Data Wrangling with OpenRefine</a>
+              <ul>
+                <li>
+                  <a href="#0-installing-openrefine">0. Installing OpenRefine</a>
+                  <ul>
+                    <li>
+                      <a href="#a-note-on-versions">A Note on Versions</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#1-about-openrefine">1. About OpenRefine</a>
+                </li>
+                <li>
+                  <a href="#2-opening-and-creating-projects">2. Opening and Creating Projects</a>
+                </li>
+                <li>
+                  <a href="#3-a-tour-of-the-openrefine-ui">3. A Tour of the OpenRefine UI</a>
+                </li>
+                <li>
+                  <a href="#4-exploring-data-sorting-filtering-and-faceting">4. Exploring Data:
+                  Sorting, Filtering, and Faceting</a>
+                </li>
+                <li>
+                  <a href="#5-manipulating-data-cleaning-modifying-and-augmenting">5. Manipulating
+                  Data: Cleaning, Modifying, and Augmenting</a>
+                  <ul>
+                    <li>
+                      <a href="#removing-rows">Removing Rows</a>
+                    </li>
+                    <li>
+                      <a href="#cell-wise-transforms">Cell-wise Transforms</a>
+                    </li>
+                    <li>
+                      <a href="#expressions">Expressions</a>
+                    </li>
+                    <li>
+                      <a href="#other-columnar-operations">Other Columnar Operations</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#6-data-reconcilliation-and-clustering">6. Data Reconcilliation and
+                  Clustering</a>
+                  <ul>
+                    <li>
+                      <a href="#operating-on-facets">Operating on Facets</a>
+                    </li>
+                    <li>
+                      <a href="#working-with-multi-valued-cells">Working with Multi-valued
+                      Cells</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#7-saving-projects-and-exporting-data">7. Saving Projects and Exporting
+                  Data</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </form>
+    <main>
+      <article>
+        <h1 id="data-wrangling-with-openrefine">
+          <a class="toclink" href="#data-wrangling-with-openrefine">Data Wrangling with
+          OpenRefine</a><a class="headerlink" href="#data-wrangling-with-openrefine" title=
+          "Permanent link">¶</a>
+        </h1>
+        <p>
+          <a href="https://cidr.stanford.edu"><img alt="OpenRefine" src=
+          "https://raw.githubusercontent.com/simonwiles/draft_workshops/OpenRefine/OpenRefine/OpenRefine.440x104.png"></a>
+        </p>
+        <p>
+          <strong>Instructor:</strong>&nbsp;Simon&nbsp;Wiles&nbsp;(simon.wiles@stanford.edu)
+        </p>
+        <div class="instruction">
+          <p>
+            <strong>Please <span class="caps">SIGN</span>-<span class="caps">IN</span> for this
+            workshop at <a href="https://cidr.link/openrefine-signin" target=
+            "_blank">cidr.link/openrefine-signin</a></strong>
+          </p>
+        </div>
+        <p>
+          OpenRefine is a powerful free and open source tool for wrangling data: exploring it,
+          cleaning it, manipulating it, and transforming it from one format into another. In this
+          hands-on workshop we will introduce OpenRefine’s features and cover some of the ways it
+          can be used to tame unruly datasets. You’ll learn how to search, sort, filter, and facet
+          your data, how to fix inconsistencies and errors, and how to create semi-automated
+          workflows for producing clean and consistent datasets for your research. Even if you
+          don’t think of your research materials as data, OpenRefine can help you clean up and make
+          sense of spreadsheets you’ve created, text you’ve scraped from websites, and other
+          structured&nbsp;sources.
+        </p>
+        <hr>
+        <h2 id="0-installing-openrefine">
+          <a class="toclink" href="#0-installing-openrefine">0. Installing OpenRefine</a><a class=
+          "headerlink" href="#0-installing-openrefine" title="Permanent link">¶</a>
+        </h2>
+        <div class="instruction">
+          <p>
+            Go to <a href="https://openrefine.org/download.html" target="_blank">the OpenRefine
+            Download page</a> and download the distribution appropriate for your
+            operating&nbsp;system.
+          </p>
+          <ul>
+            <li>If you’re on Windows, extract the zip file and run <code>openrefine.exe</code>.
+            </li>
+            <li>Mac users, open the <code>.dmg</code> file, drag the OpenRefine icon to your
+            Applications folder, and the double-click to run&nbsp;it.
+            </li>
+            <li>For Linux, extract the tarball and execute <code>./refine</code>.
+            </li>
+          </ul>
+        </div>
+        <h3 id="a-note-on-versions">
+          <a class="toclink" href="#a-note-on-versions">A Note on Versions</a><a class="headerlink"
+          href="#a-note-on-versions" title="Permanent link">¶</a>
+        </h3>
+        <p>
+          At time of writing, version 3.3 of OpenRefine is in <span class="caps">RC</span>-phase,
+          but for this workshop please make sure you download and install OpenRefine
+          version&nbsp;3.2.
+        </p>
+        <hr>
+        <h2 id="1-about-openrefine">
+          <a class="toclink" href="#1-about-openrefine">1. About OpenRefine</a><a class=
+          "headerlink" href="#1-about-openrefine" title="Permanent link">¶</a>
+        </h2>
+        <ul>
+          <li>
+            <strong>Useful for Fairly Large Datasets</strong><br>
+            OpenRefine works well with datasets up to around 100,000 records with the default
+            configuration. If your dataset is larger than that you can allocate more memory, but
+            OpenRefine is not necessarily the best choice for <em>very</em> large amounts
+            of&nbsp;data.
+          </li>
+          <li>
+            <strong>Operate on Rows and Columns as well as Cells</strong><br>
+            The ability to edit, correct, and maniputate whole rows and columns in a single
+            repeatable operation can make light work of tasks that would often otherwise require a
+            programming or scripting&nbsp;language.
+          </li>
+          <li>
+            <strong>A Non-Destructive Environment</strong><br>
+            When your data has is loaded into an OpenRefine project, a copy is made and the
+            original source is left untouched. Furthermore, every operation you perform is logged
+            and your cumulative operation history can be rewound and replayed at any time. This
+            makes OpenRefine an ideal environment in which to experiment and try out different
+            approaches to manipulating your data in a consequence-free way. It also means that a
+            record of all the operations you have performed is available at all times, such that
+            this record can be exported and applied to similar datasets or new versions of the
+            same&nbsp;dataset.
+          </li>
+          <li>
+            <strong>Clustering Algorithms</strong><br>
+            OpenRefine includes an extensive suite of clustering alogrithms that can be used to
+            semi-automatically reconcile messy and inconsistent data&nbsp;values.
+          </li>
+          <li>
+            <strong>Remote APIs and Reconcilliation</strong><br>
+            Built-in support is available for fetching data from remote APIs to augment datasets,
+            and third-party extensions exist that expand these options. It is also possible to
+            write custom extensions where&nbsp;appropriate.
+          </li>
+        </ul>
+        <hr>
+        <h2 id="2-opening-and-creating-projects">
+          <a class="toclink" href="#2-opening-and-creating-projects">2. Opening and Creating
+          Projects</a><a class="headerlink" href="#2-opening-and-creating-projects" title=
+          "Permanent link">¶</a>
+        </h2>
+        <ul>
+          <li>Importing data from tabular and <span class="caps">XML</span>/<span class=
+          "caps">JSON</span>-based data sources is supposed, either from local files or pasted from
+          the clipboard, or directly from a database or a <span class="caps">URL</span>.
+          </li>
+          <li>OpenRefine typically does a good job of introspecting the data and coming up with
+          appropriate import settings, but you can alter the configuration if required as you
+          create your&nbsp;project.
+          </li>
+          <li>When creating your project, choose a project name and add tags as desired to help you
+          easily find your project in the&nbsp;future.
+          </li>
+        </ul>
+        <div class="instruction">
+          <p>
+            Create a new project, importing data from the <span class="caps">URL</span>:
+            <code>https://cidr.link/openrefine-imdb</code>.<br>
+            Check that the preview looks correct, then give the project an appropriate name and hit
+            “Create&nbsp;Project”.
+          </p>
+        </div>
+        <hr>
+        <h2 id="3-a-tour-of-the-openrefine-ui">
+          <a class="toclink" href="#3-a-tour-of-the-openrefine-ui">3. A Tour of the OpenRefine
+          <span class="caps">UI</span></a><a class="headerlink" href=
+          "#3-a-tour-of-the-openrefine-ui" title="Permanent link">¶</a>
+        </h2>
+        <p>
+          OpenRefine presents your data in a tabular form, similar to what you will be used to in a
+          spreadsheet. Some of the features to notice right away&nbsp;are:
+        </p>
+        <ul>
+          <li>Record / Row&nbsp;count
+          </li>
+          <li>Record / Row&nbsp;selector
+          </li>
+          <li>Paging&nbsp;controls
+          </li>
+          <li>Column context&nbsp;menus
+          </li>
+          <li>The “All” column — a star, a flag, and a&nbsp;number.
+          </li>
+          <li>Sidebar - Facet/Filter and&nbsp;Undo/Redo
+          </li>
+          <li>Permalinks
+          </li>
+        </ul>
+        <hr>
+        <h2 id="4-exploring-data-sorting-filtering-and-faceting">
+          <a class="toclink" href="#4-exploring-data-sorting-filtering-and-faceting">4. Exploring
+          Data: Sorting, Filtering, and Faceting</a><a class="headerlink" href=
+          "#4-exploring-data-sorting-filtering-and-faceting" title="Permanent link">¶</a>
+        </h2>
+        <p>
+          The first thing that we might find OpenRefine useful for is exploring new&nbsp;datasets.
+        </p>
+        <ul>
+          <li>
+            <strong>Sorting</strong><br>
+            Sorting in OpenRefine works as expected. Useful features include the ability to sort
+            text in a case-sensitive or -insensitive way, and a convenient and simple method to
+            sort empty values and processing errors to the top or&nbsp;bottom.
+          </li>
+          <li>
+            <strong>Filtering</strong><br>
+            OpenRefine offers a straightforward text filter with options to control
+            case-sensitivity and toggle regular expression parsing. Despite its name, the text
+            filter can be used on number and data columns to occassionally useful&nbsp;effect.
+          </li>
+          <li>
+            <strong>Facets</strong><br>
+            Facets are where lot of the power of OpenRefine comes from, allowing sophisticated
+            interrogation of data in real time.
+            <ul>
+              <li>Text/Numeric/Date facets Facets can be sorted by name or count, and toggled for
+              use as inclusion or exclusion&nbsp;filters.
+              </li>
+              <li>Scatter-plot facets are also&nbsp;available.
+              </li>
+              <li>Custom facets allow for the specification of more sophisticated criteria
+              and&nbsp;conditions
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <hr>
+        <h2 id="5-manipulating-data-cleaning-modifying-and-augmenting">
+          <a class="toclink" href="#5-manipulating-data-cleaning-modifying-and-augmenting">5.
+          Manipulating Data: Cleaning, Modifying, and Augmenting</a><a class="headerlink" href=
+          "#5-manipulating-data-cleaning-modifying-and-augmenting" title="Permanent link">¶</a>
+        </h2>
+        <div class="instruction">
+          <p>
+            For this section, we’ll use a different dataset. Please create a new project and import
+            the data from this <span class="caps">URL</span>:
+            <code>https://cidr.link/openrefine-safi</code>.
+          </p>
+        </div>
+        <h3 id="removing-rows">
+          <a class="toclink" href="#removing-rows">Removing Rows</a><a class="headerlink" href=
+          "#removing-rows" title="Permanent link">¶</a>
+        </h3>
+        <p>
+          Sometimes our data is so messy that our first task is to drop some records that we don’t
+          want or need, or that are simply junk or otherwise&nbsp;unusuable.
+        </p>
+        <ul>
+          <li>
+            <strong>Removing rows by criterion</strong><br>
+            We might, for example, decide that we’re not interesting in any records which have an
+            <em>interview_date</em> before 2017. To dispose of these records, we can filter them
+            using a timeline facet, and remove them by using <code>⏷All → Edit rows → Remove all
+            matching rows</code>.
+          </li>
+          <li>
+            <strong>Flagging and then filtering</strong><br>
+            If we need to manually remove rows in a way that can’t be easily specified with a
+            filter, one approach is to identify the rows we’re interested by hand and flag them. We
+            can then filter on the flag status and remove the offending rows in the same&nbsp;way.
+          </li>
+          <li>
+            <strong>Removing duplicates</strong><br>
+            A common task is to identify and remove duplicate records in a data set. If duplicate
+            rows can be identified by a duplicate key of some kind, this becomes a straightforward
+            task. Sort the data according to the key in question, make sure to <code>Reorder rows
+            permanently</code>, and then apply the <code>Edit cells → Blank down</code> operation.
+            The column can then be filtered on blanks as a proxy to select the duplicate records
+            which can then be removed from the&nbsp;dataset.
+          </li>
+        </ul>
+        <h3 id="cell-wise-transforms">
+          <a class="toclink" href="#cell-wise-transforms">Cell-wise Transforms</a><a class=
+          "headerlink" href="#cell-wise-transforms" title="Permanent link">¶</a>
+        </h3>
+        <p>
+          OpenRefine offers a number of built-in data transformation functions that you can apply
+          right way to solve common data-cleaning&nbsp;problems.
+        </p>
+        <ul>
+          <li>Data-type conversion — use the Undo/Redo list to see how many cells are affected, and
+          sort on errors as&nbsp;appropriate.
+          </li>
+          <li>Case&nbsp;conversion
+          </li>
+          <li>Trimming whitespace — see, e.g. <em>respondent_wall_type</em>
+          </li>
+          <li>etc.
+          </li>
+          <li>Transforms operate on the filtered set of&nbsp;records.
+          </li>
+        </ul>
+        <div class="instruction">
+          <p>
+            <strong>Exercise:</strong><br>
+            Remove <em><span class="caps">NULL</span></em> from the dataset by filtering and
+            applying a <code>Common transformation</code>.
+          </p>
+        </div>
+        <h3 id="expressions">
+          <a class="toclink" href="#expressions">Expressions</a><a class="headerlink" href=
+          "#expressions" title="Permanent link">¶</a>
+        </h3>
+        <p>
+          These transformation functions are all applications of preset <em>expressions</em>, and
+          OpenRefine exposes the power of its expression engine to us so that we can write our own
+          to perform more sophisticated or specific operations in a similar
+          column-wise&nbsp;manner.
+        </p>
+        <ul>
+          <li>Transforming cells to allow custom&nbsp;faceting
+          </li>
+          <li>Regex, <span class="caps">GREL</span> and&nbsp;Jython
+          </li>
+          <li>see&nbsp;https://github.com/OpenRefine/OpenRefine/wiki/Recipes
+          </li>
+        </ul>
+        <h3 id="other-columnar-operations">
+          <a class="toclink" href="#other-columnar-operations">Other Columnar
+          Operations</a><a class="headerlink" href="#other-columnar-operations" title=
+          "Permanent link">¶</a>
+        </h3>
+        <ul>
+          <li>
+            <strong>Splitting into multiple columns</strong><br>
+            Try, for example, on a&nbsp;timestamp
+          </li>
+          <li>
+            <strong>Adding new columns by operating on existing&nbsp;ones</strong>
+          </li>
+          <li>
+            <strong>Adding new columns by fetching from remote&nbsp;URLs</strong>
+          </li>
+        </ul>
+        <hr>
+        <h2 id="6-data-reconcilliation-and-clustering">
+          <a class="toclink" href="#6-data-reconcilliation-and-clustering">6. Data Reconcilliation
+          and Clustering</a><a class="headerlink" href="#6-data-reconcilliation-and-clustering"
+          title="Permanent link">¶</a>
+        </h2>
+        <p>
+          Data cleaning can be about fixing untidyness in the data, and reorganizing it, in the
+          ways we’ve looked at above, but it can also involve reconciling data to homogenize
+          labels, tags, and other values that refer to the same value in our&nbsp;analysis.
+        </p>
+        <h3 id="operating-on-facets">
+          <a class="toclink" href="#operating-on-facets">Operating on Facets</a><a class=
+          "headerlink" href="#operating-on-facets" title="Permanent link">¶</a>
+        </h3>
+        <ul>
+          <li>Editing facets (for clean&nbsp;up)
+          </li>
+          <li>Clustering&nbsp;facets
+          </li>
+        </ul>
+        <h3 id="working-with-multi-valued-cells">
+          <a class="toclink" href="#working-with-multi-valued-cells">Working with Multi-valued
+          Cells</a><a class="headerlink" href="#working-with-multi-valued-cells" title=
+          "Permanent link">¶</a>
+        </h3>
+        <div markdown="1" class="instruction">
+          <p>
+            For this section, we’ll use a different dataset. Please create a new project and import
+            the data from this <span class="caps">URL</span>:
+            <code>https://cidr.link/openrefine-phm</code>.
+          </p>
+          <p>
+            For this dataset, please uncheck the option: <code>Use character " to enclose cells
+            containing column separators.</code>
+          </p>
+        </div>
+        <ul>
+          <li>splitting and joining multi-valued&nbsp;cells
+          </li>
+        </ul>
+        <hr>
+        <h2 id="7-saving-projects-and-exporting-data">
+          <a class="toclink" href="#7-saving-projects-and-exporting-data">7. Saving Projects and
+          Exporting Data</a><a class="headerlink" href="#7-saving-projects-and-exporting-data"
+          title="Permanent link">¶</a>
+        </h2>
+        <ul>
+          <li>Saving, Editing, and Importing&nbsp;Projects
+          </li>
+          <li>Exporting Data
+            <ul>
+              <li>tabular export (C/<span class="caps">TSV</span>, Excel, <span class=
+              "caps">HTML</span>)
+              </li>
+              <li>as <span class="caps">SQL</span>
+              </li>
+              <li>templating for (e.g.) <span class="caps">JSON</span>&nbsp;output
+              </li>
+            </ul>
+          </li>
+          <li>Pipe-lining for iterable and reproducible workflows
+            <ul>
+              <li>Undo/Redo and exporting operations change lists can be applied to data using
+              (e.g.) Python bindings, which is pretty cool&nbsp;:)
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+    </main>
+    <footer>
+      <p class="wrapped">
+        This workshop is part of the CIDR Workshop Series.<br>
+        See upcoming workshops at https://cidr.stanford.edu/workshops/
+      </p>
+    </footer>
+  </body>
+</html>
+
