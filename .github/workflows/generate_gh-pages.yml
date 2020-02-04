@@ -80,5 +80,9 @@ jobs:
         cd workshops/public;
         git config --global user.name "${{ github.actor }}";
         git config --global user.email "${{ github.actor }}@users.noreply.github.com";
-        git commit -am "Auto-generated HTML";
-        git push;
+        git add --all;
+        if [ -z "$(git status --porcelain)" ];
+        then
+          git commit -m "Auto-generated HTML";
+          git push;
+        fi;
