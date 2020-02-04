@@ -1,7 +1,13 @@
 name: Generate Workshop HTML for gh-pages
 
-on: [push]
-
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '**.md'
+      - '!README.md'
+      - '!**/README.md'
 jobs:
 
   generate-html:
@@ -21,13 +27,11 @@ jobs:
         exit 0;
 
     - name: Checkout Workshops Repo
-      if: env.MDFILES
       uses: actions/checkout@v2
       with:
         path: workshops
 
     -name: Checkout gh-pages worktree
-      if: env.MDFILES
       run: |
         cd workshops;
         git worktree add -B gh-pages public origin/gh-pages;
@@ -71,7 +75,6 @@ jobs:
         done;
 
     - name: Commit HTML
-      if: env.MDFILES
       run: |
         cd workshops/public;
         git config --global user.name "${{ github.actor }}";
