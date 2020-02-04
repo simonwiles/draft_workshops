@@ -32,9 +32,10 @@ jobs:
         path: workshops
 
     - name: Checkout gh-pages worktree
-      run: |
-        cd workshops;
-        git worktree add -B gh-pages public origin/gh-pages;
+      uses: actions/checkout@v2
+      with:
+        ref: gh-pages
+        path: workshops/public
 
     - name: Remove HTML for deleted markdown files
       if: env.REMOVE
