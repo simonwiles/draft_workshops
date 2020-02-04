@@ -44,7 +44,7 @@ jobs:
       if: env.GENERATE
       uses: actions/checkout@v2
       with:
-        repository: simonwiles/workshop-html-generator
+        repository: sul-cidr/workshop-html-generator
         path: html-generator
     - name: Install dependencies
       if: env.GENERATE
