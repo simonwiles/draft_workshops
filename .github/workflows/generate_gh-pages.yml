@@ -86,3 +86,10 @@ jobs:
           git commit -m "Auto-generated HTML";
           git push;
         fi;
+
+    - name: Request Github Pages build job
+      run: >-
+        curl -L -X POST
+          -H "Content-Type: application/json"
+          -H "Authorization: token ${{ secrets.PAT }}"
+          "https://api.github.com/repos/${{ github.repository }}/pages/builds";
