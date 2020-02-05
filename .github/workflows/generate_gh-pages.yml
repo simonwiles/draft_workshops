@@ -88,8 +88,8 @@ jobs:
         fi;
 
     - name: Request Github Pages build job
-      run: >-
-        curl -L -X POST
-          -H "Content-Type: application/json"
-          -H "Authorization: token ${{ secrets.PAT }}"
+      run: |
+        curl --silent --location --request POST \
+          --header "Content-Type: application/json" \
+          --header "Authorization: token ${{ secrets.PAT }}" \
           "https://api.github.com/repos/${{ github.repository }}/pages/builds";
