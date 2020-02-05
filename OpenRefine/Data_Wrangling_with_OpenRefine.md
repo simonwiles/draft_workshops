@@ -1,6 +1,6 @@
 # Data Wrangling with OpenRefine
 
-[![OpenRefine](https://raw.githubusercontent.com/simonwiles/draft_workshops/OpenRefine/OpenRefine/OpenRefine.440x104.png)](https://cidr.stanford.edu)
+[![OpenRefine](https://raw.githubusercontent.com/simonwiles/draft_workshops/master/OpenRefine/OpenRefine.440x104.png)](https://cidr.stanford.edu)
 
 
 **Instructor:** Simon&nbsp;Wiles&nbsp;(simon.wiles@stanford.edu)
