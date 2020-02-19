@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html>
+  <head prefix="dcterms: http://purl.org/dc/terms/#">
+    <meta charset="utf-8">
+    <title>
+      Working with Network Data in Gephi :: CIDR Workshops
+    </title>
+    <meta name="version" content="f39c46a">
+    <meta name="dcterms.modified" content="2020-02-19">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href=
+    "https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro" rel=
+    "stylesheet">
+    <style>
+      html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],figure,blockquote,dl,dd{margin:0}body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed;line-height:1.5}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img{max-width:100%;display:block}article>*+*{margin-top:1em}input,button,textarea,select{font:inherit}:root{--background-color:#f6f6f6;--cardinal:#8c1515;--dark-red:#820000;--process-black:#2e2d29;--text-on-cardinal:#e3dfd5;--sandstone:#d2c295;--sandstone-paler:#e3dbc5;--sandstone-semi-trsp:rgba(210,194,149,.6);--chocolate:#2F2424;--light-sage:#c7d1c5;--lagunita:#007c92}::selection,a::selection{background:var(--sandstone-semi-trsp)}a,a::selection{color:var(--dark-red);text-decoration:none}a:hover{color:var(--process-black);text-decoration:underline}hr{margin:4em 0}p{margin:1em 0}blockquote{color:#666;margin:0;padding-left:3em;border-left:.5em #EEE solid}code{margin:0 2px;padding:0 5px;white-space:nowrap;border:1px solid #eaeaea;background-color:white;border-radius:3px;font-family:'Source Sans Mono',monospace;font-size:.9em;user-select:all}h1,h2,h3,h4,h5,h6{font-family:'Source Serif Pro',serif;font-weight:400;line-height:1em;padding-left:1em;text-indent:-1em}h1{font-size:2.5em}h2{font-size:2em}h3{font-size:1.5em}h4{font-size:1.2em}h5{font-size:1em}h6{font-size:.9em}article>ul>* + *{margin-top:.8em}h1:hover .headerlink,h2:hover .headerlink,h3:hover .headerlink,h4:hover .headerlink,h5:hover .headerlink,h6:hover .headerlink{visibility:visible}table{width:100%}img{margin-top:1em}.toclink{color:inherit}.headerlink{margin-left:4px;visibility:hidden}.instruction{background-color:var(--sandstone-paler);padding:.5em 1em;border-radius:.5em;margin-left:1.5em;margin-right:1.5em;border:1px solid var(--sandstone);clear:both}.pull-right{float:right;margin:0 0 1em 2em}.pull-left{float:left;margin:0 2em 1em 0}.center{margin-left:auto;margin-right:auto}form#sidebar{position:sticky;top:0;left:0}input#open-sidebar:checked ~ #sidebar-content{transform:translateX(0)}input#open-sidebar{transition:all 0.3s;display:none}label[for="open-sidebar"]{transition:all 0.3s;cursor:pointer;position:absolute;top:15px;left:15px;z-index:99;height:22px;width:22px}.spinner{transition:all 0.3s;position:absolute;height:3px;width:100%;background-color:var(--cardinal);user-select:none}.horizontal{transition:all 0.3s;position:relative;float:left;margin-top:3px}.diagonal.part-1{position:relative;transition:all 0.3s;float:left}.diagonal.part-2{transition:all 0.3s;position:relative;float:left;margin-top:3px}input#open-sidebar:checked ~ label[for="open-sidebar"]>.horizontal{transition:all 0.3s;box-sizing:border-box;opacity:0}input#open-sidebar:checked ~ label[for="open-sidebar"]>.diagonal.part-1{transition:all 0.3s;box-sizing:border-box;transform:rotate(135deg);margin-top:8px}input#open-sidebar:checked ~ label[for="open-sidebar"]>.diagonal.part-2{transition:all 0.3s;box-sizing:border-box;transform:rotate(-135deg);margin-top:-9px}#sidebar-content{height:100vh;position:absolute;top:0;left:0;width:250px;transform:translateX(-250px);transition:transform 250ms ease-in-out;background:var(--sandstone-paler);padding-top:48px}.toc{height:calc(100vh - 48px);overflow-y:auto;padding-bottom:24px}.toc ul{margin:0;padding:0 0 0 0.5em}.toc li{list-style:none;cursor:pointer;padding-left:1em;text-indent:-1em;font-size:.9em;margin:.5em 0}.toc li::before{content:"§";color:var(--dark-red);font-size:1.2em;line-height:1em}.toc li a{color:var(--process-black);display:inline-block;padding-left:1em;text-indent:-1em;vertical-align:top;max-width:90%}.toc>ul{padding:0}.toc>ul>li{list-style:none;padding:0 0 0 .5em;text-indent:0;font-size:1.1em}.toc>ul>li::before{display:none}.toc>ul>li>a{margin:0;font-weight:bold;font-family:'Source Serif Pro',serif}body{background-color:var(--background-color);color:var(--process-black);font-family:'Source Sans Pro',sans-serif}main,header>div,.wrapped{margin:0 auto;max-width:90vw;padding:10px 0;width:640px}main{margin:2em auto 0}header>div{align-items:flex-end;display:flex;height:100px;margin:0 auto;max-width:90vw;padding:10px 0;width:640px}header span{font-size:2em;margin:0 10px}header{background-color:var(--cardinal);color:white;padding-bottom:10px}footer{background-color:var(--cardinal);color:var(--text-on-cardinal)}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="https://cidr.stanford.edu" target="_blank" title=
+        "Center for Interdisciplinary Digital Research @ Stanford University Libraries"><img src=
+        "data:image/png;base64,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"
+        alt="Center for Interdisciplinary Digital Research @ Stanford University Libraries"></a>
+        <span>Workshop Series</span>
+      </div>
+    </header>
+    <form id="sidebar" name="sidebar">
+      <input type="checkbox" id="open-sidebar"> <label for="open-sidebar"><span class=
+      "spinner diagonal part-1">&nbsp;</span> <span class="spinner horizontal">&nbsp;</span>
+      <span class="spinner diagonal part-2">&nbsp;</span></label>
+      <div id="sidebar-content">
+        <div class="toc">
+          <ul>
+            <li>
+              <a href="#working-with-network-data-in-gephi">Working with Network Data in Gephi</a>
+            </li>
+            <li>
+              <a href="#0-workshop-setup">0. Workshop Setup</a>
+              <ul>
+                <li>
+                  <a href="#installing-gephi">Installing Gephi</a>
+                </li>
+                <li>
+                  <a href="#getting-sample-data">Getting Sample Data</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#1-why-network-graphs">1. Why Network Graphs?</a>
+            </li>
+            <li>
+              <a href="#2-a-brief-intro-to-graph-theory-and-social-network-analysis">2. A Brief
+              Intro. to Graph Theory and Social Network Analysis</a>
+              <ul>
+                <li>
+                  <a href="#the-seven-bridges-of-konigsberg">The Seven Bridges of Königsberg</a>
+                </li>
+                <li>
+                  <a href="#social-network-analysis">Social Network Analysis</a>
+                </li>
+                <li>
+                  <a href="#key-terms">Key Terms</a>
+                </li>
+                <li>
+                  <a href="#data">Data</a>
+                </li>
+                <li>
+                  <a href="#types-of-graphs">Types of Graphs</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#3-software-and-data-formats">3. Software and Data Formats</a>
+              <ul>
+                <li>
+                  <a href="#desktop-packages">Desktop Packages</a>
+                </li>
+                <li>
+                  <a href="#libraries-and-frameworks">Libraries and Frameworks</a>
+                </li>
+                <li>
+                  <a href="#data-formats">Data Formats</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#4-getting-started-with-gephi">4. Getting Started with Gephi</a>
+              <ul>
+                <li>
+                  <a href="#loading-data">Loading Data</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#5-network-visualization">5. Network Visualization</a>
+              <ul>
+                <li>
+                  <a href="#layout">Layout</a>
+                </li>
+                <li>
+                  <a href="#other-formatting">Other Formatting</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#6-network-statistics">6. Network Statistics</a>
+              <ul>
+                <li>
+                  <a href="#network-metrics">Network Metrics</a>
+                </li>
+                <li>
+                  <a href="#node-metrics">Node Metrics</a>
+                </li>
+                <li>
+                  <a href="#considerations-when-analyzing-networks">Considerations when Analyzing
+                  Networks</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#7-publishing-visualizations">7. Publishing Visualizations</a>
+              <ul>
+                <li>
+                  <a href="#the-preview-screen">The Preview screen</a>
+                </li>
+                <li>
+                  <a href="#print">Print</a>
+                </li>
+                <li>
+                  <a href="#on-the-web">On the Web</a>
+                </li>
+                <li>
+                  <a href="#gephi-plugins">Gephi Plugins</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </form>
+    <main>
+      <article>
+        <h1 id="working-with-network-data-in-gephi">
+          <a class="toclink" href="#working-with-network-data-in-gephi">Working with Network Data
+          in Gephi</a><a class="headerlink" href="#working-with-network-data-in-gephi" title=
+          "Permanent link">¶</a>
+        </h1>
+        <hr>
+        <p>
+          <strong>Instructor:</strong>&nbsp;Simon&nbsp;Wiles&nbsp;(simon.wiles@stanford.edu)
+        </p>
+        <blockquote>
+          <p>
+            This workshop will introduce you to working with data that can be represented as a
+            network graph. We’ll cover why and how to organize data in terms of networks as well as
+            some of the tools that are available for working with networks and graphs. In
+            particular, the workshop will feature a hands-on tutorial on using Gephi
+            (https://gephi.org/) to explore, analyze, and visualize network&nbsp;data.
+          </p>
+        </blockquote>
+        <hr>
+        <h1 id="0-workshop-setup">
+          <a class="toclink" href="#0-workshop-setup">0. Workshop Setup</a><a class="headerlink"
+          href="#0-workshop-setup" title="Permanent link">¶</a>
+        </h1>
+        <h2 id="installing-gephi">
+          <a class="toclink" href="#installing-gephi">Installing Gephi</a><a class="headerlink"
+          href="#installing-gephi" title="Permanent link">¶</a>
+        </h2>
+        <div class="admonition instruction">
+          <p>
+            Go to <a href="https://gephi.org/" target="_blank">the Gephi home page</a> and download
+            the distribution appropriate for your operating&nbsp;system.
+          </p>
+          <ul>
+            <li>
+              <strong>Windows</strong>
+              <ul>
+                <li>If you don’t have Java installed (you’ll need version 7 or 8), please install
+                version 8 from <a href="https://www.java.com/en/download/">this link</a>.
+                </li>
+                <li>Run the downloaded installer and follow the steps in the Setup&nbsp;Wizard.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Mac</strong>
+              <ul>
+                <li>Open the <code>.dmg</code> file, drag the Gephi icon to your Applications
+                folder, and the double-click to run&nbsp;it.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Linux</strong>
+              <ul>
+                <li>Ensure you have a Java <span class="caps">JRE</span> installed (version 7
+                or&nbsp;8).
+                </li>
+                <li>Extract the tarball and execute <code>./bin/gephi</code>.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <h2 id="getting-sample-data">
+          <a class="toclink" href="#getting-sample-data">Getting Sample Data</a><a class=
+          "headerlink" href="#getting-sample-data" title="Permanent link">¶</a>
+        </h2>
+        <div class="admonition instruction">
+          <p>
+            Download the sample data pack <code>sample_data.zip</code> using <a href="">this
+            link</a>, and extract it somewhere you can find it on your&nbsp;computer.
+          </p>
+        </div>
+        <hr>
+        <h1 id="1-why-network-graphs">
+          <a class="toclink" href="#1-why-network-graphs">1. Why Network Graphs?</a><a class=
+          "headerlink" href="#1-why-network-graphs" title="Permanent link">¶</a>
+        </h1>
+        <ul>
+          <li>
+            <p>
+              Visualizing and analyzing network graphs for&nbsp;research:
+            </p>
+            <ul>
+              <li>exploring, investigating, and analysing&nbsp;data
+              </li>
+              <li>diagnosing, finding errors, and “sanity&nbsp;checking”
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>
+              Visualizing network graphs for presenting and communicating data and&nbsp;findings:
+            </p>
+            <ul>
+              <li>static visualizations for print/web&nbsp;etc.
+              </li>
+              <li>interactive visualizations for web and other digital&nbsp;platforms
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <hr>
+        <h1 id="2-a-brief-intro-to-graph-theory-and-social-network-analysis">
+          <a class="toclink" href="#2-a-brief-intro-to-graph-theory-and-social-network-analysis">2.
+          A Brief Intro. to Graph Theory and Social Network Analysis</a><a class="headerlink" href=
+          "#2-a-brief-intro-to-graph-theory-and-social-network-analysis" title=
+          "Permanent link">¶</a>
+        </h1>
+        <h2 id="the-seven-bridges-of-konigsberg">
+          <a class="toclink" href="#the-seven-bridges-of-konigsberg">The Seven Bridges of
+          Königsberg</a><a class="headerlink" href="#the-seven-bridges-of-konigsberg" title=
+          "Permanent link">¶</a>
+        </h2>
+        <p>
+          <img alt="The Seven Bridges of Königsberg" class="center" src=
+          "images/the_k%C3%B6nigsberg_problem.png">
+        </p>
+        <p>
+          Graph theory begins with the work of Swiss genius Leonard Euler in the
+          mid-18th&nbsp;century.
+        </p>
+        <blockquote>
+          <p>
+            <span class="dquo">“</span>Can I walk through Königsberg such that I cross each of its
+            seven bridges once and only&nbsp;once?”
+          </p>
+        </blockquote>
+        <h2 id="social-network-analysis">
+          <a class="toclink" href="#social-network-analysis">Social Network Analysis</a><a class=
+          "headerlink" href="#social-network-analysis" title="Permanent link">¶</a>
+        </h2>
+        <p>
+          Social network analysis examines the structure of relationships between social entities.
+          These entities are often persons, but may also be groups, organizations, nation states,
+          web sites, scholarly&nbsp;publications.
+        </p>
+        <p>
+          Since the 1970s, the empirical study of networks has played a central role in social
+          science, and many of the mathematical and statistical tools used for studying networks
+          have been first developed in sociology. Amongst many other applications, social network
+          analysis has been used to understand the diffusion of innovations, news and rumors.
+          Similarly, it has been used to examine the spread of both diseases and health-related
+          behaviors. It has also been applied to the study of markets, where it has been used to
+          examine the role of trust in exchange relationships and of social mechanisms in setting
+          prices. Similarly, it has been used to study recruitment into political movements and
+          social organizations. It has also been used to conceptualize scientific disagreements as
+          well as academic prestige. More recently, network analysis (and its close cousin traffic
+          analysis) has gained a significant use in military intelligence, for uncovering insurgent
+          networks of both hierarchical and leaderless nature. In criminology, it is being used to
+          identify influential actors in criminal gangs, offender movements, co-offending, predict
+          criminal activities and make&nbsp;policies.
+        </p>
+        <h2 id="key-terms">
+          <a class="toclink" href="#key-terms">Key Terms</a><a class="headerlink" href="#key-terms"
+          title="Permanent link">¶</a>
+        </h2>
+        <p>
+          <img alt="Nodes and Edges" class="pull-right" src="images/nodes_and_edges.212x166.png">
+        </p>
+        <ul>
+          <li>
+            <p>
+              <strong>Graphs</strong><br>
+              A collection of nodes and edges that collect some (or none) of&nbsp;them.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Nodes</strong> (a.k.a. <em>vertices</em>, <em>points</em>,
+              <em>actors</em>&nbsp;etc.)
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Edges</strong> (a.k.a. <em>arcs</em>, <em>links</em>, <em>lines</em>,
+              <em>connections</em>, <em>relationships</em>&nbsp;etc.)
+            </p>
+          </li>
+        </ul>
+        <h2 id="data">
+          <a class="toclink" href="#data">Data</a><a class="headerlink" href="#data" title=
+          "Permanent link">¶</a>
+        </h2>
+        <p>
+          The first step in working with network graphs is wrangling our data into an
+          appropriate&nbsp;format.
+        </p>
+        <ul>
+          <li>A lists of edges&nbsp;(mandatory)
+          </li>
+          <li>A list of nodes&nbsp;(optional)
+          </li>
+          <li>Additional attributes and metadata
+            <ul>
+              <li>Edge types /&nbsp;weights
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h2 id="types-of-graphs">
+          <a class="toclink" href="#types-of-graphs">Types of Graphs</a><a class="headerlink" href=
+          "#types-of-graphs" title="Permanent link">¶</a>
+        </h2>
+        <p>
+          Graphs may&nbsp;be:
+        </p>
+        <ul>
+          <li>
+            <p>
+              Simple graphs, multigraphs, or pseudo-graphs <img alt="Graph Types" class="center"
+              src="images/graph_types.422x134.png">
+            </p>
+          </li>
+          <li>
+            <p>
+              Undirected, oriented, or directed <img alt="Graph Directedness" class="center" src=
+              "images/graph_directedness.503x138.png">
+            </p>
+          </li>
+          <li>
+            <p>
+              Connected or unconnected <img alt="Graph Labelledness" class="center" src=
+              "images/graph_connectedness.408x109.png">
+            </p>
+          </li>
+          <li>
+            <p>
+              Labeled or unlabeled <img alt="Graph Labeledness" class="center" src=
+              "images/graph_labeledness.400x155.png">
+            </p>
+          </li>
+        </ul>
+        <hr>
+        <h1 id="3-software-and-data-formats">
+          <a class="toclink" href="#3-software-and-data-formats">3. Software and Data
+          Formats</a><a class="headerlink" href="#3-software-and-data-formats" title=
+          "Permanent link">¶</a>
+        </h1>
+        <p>
+          Lots of different software packages are available to help you manage, analyze, and
+          visualize network data. Below are few you might be likely to encounter, and that you
+          might consider for your own&nbsp;work.
+        </p>
+        <h2 id="desktop-packages">
+          <a class="toclink" href="#desktop-packages">Desktop Packages</a><a class="headerlink"
+          href="#desktop-packages" title="Permanent link">¶</a>
+        </h2>
+        <p>
+          The following are all open-source, cross-platform desktop applications that provide a
+          graphical user interface (<span class="caps">GUI</span>) for working with graphs and
+          network&nbsp;data.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th align="center"></th>
+              <th align="center"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center">
+                <a href="https://gephi.org/" target="_blank"><img alt="Gephi" src=
+                "images/gephi_logo.194x75.png"></a>
+              </td>
+              <td align="center">
+                <a href="http://www.cytoscape.org/" target="_blank"><img alt="Cytoscape" src=
+                "images/cytoscape_logo.203x75.png"></a>
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <a href="http://mrvar.fdv.uni-lj.si/pajek/" target="_blank"><img alt="Pajeck" src=
+                "images/pajek_logo.162x74.png"></a>
+              </td>
+              <td align="center">
+                <a href="https://socnetv.org/" target="_blank"><img alt="SocNetV" src=
+                "images/socnetv_logo.210x75.png"></a>
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <a href="https://tulip.labri.fr/TulipDrupal/" target="_blank"><img alt="Tulip" src=
+                "images/tulip_logo.200x56.png"> Tulip</a>
+              </td>
+              <td align="center"></td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="libraries-and-frameworks">
+          <a class="toclink" href="#libraries-and-frameworks">Libraries and Frameworks</a><a class=
+          "headerlink" href="#libraries-and-frameworks" title="Permanent link">¶</a>
+        </h2>
+        <ul>
+          <li>
+            <a href="https://www.graphviz.org/" target="_blank">Graphviz</a>
+          </li>
+          <li>
+            <p>
+              <a href="https://igraph.org/" target="_blank">iGraph</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              Python
+            </p>
+            <ul>
+              <li>
+                <a href="http://networkx.github.io/">NetworkX</a>
+              </li>
+              <li>
+                <a href="https://pypi.org/project/graphviz/" target="_blank">Python interface
+                to&nbsp;Graphviz</a>
+              </li>
+              <li>
+                <a href="https://pypi.org/project/python-igraph/" target="_blank">Python interface
+                to&nbsp;iGraph</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>
+              R
+            </p>
+            <ul>
+              <li>
+                <a href="https://www.rdocumentation.org/packages/sna/" target="_blank">sna: Tools
+                for Social Network&nbsp;Analysis</a>
+              </li>
+              <li>
+                <a href="https://www.rdocumentation.org/packages/Rgraphviz/" target="_blank">R
+                interface to&nbsp;Graphviz</a>
+              </li>
+              <li>
+                <a href="https://www.rdocumentation.org/packages/igraph/" target="_blank">R
+                interface to&nbsp;iGraph</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>
+              Others
+            </p>
+            <ul>
+              <li>
+                <a href="http://nodexlgraphgallery.org/">NodeXL</a><br>
+                NodeXL is a free plugin for Microsoft Excel (Windows only). It’s fairly limited but
+                may be useful for fairly small datasets and makes entering and editing data
+                extremely easy for those who are used to Excel. NodeXL also provides some unique
+                visualizations and the ability to import data from social networks (?); it does not
+                scale well to networks of more than a few thousand nodes and&nbsp;edges.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h2 id="data-formats">
+          <a class="toclink" href="#data-formats">Data Formats</a><a class="headerlink" href=
+          "#data-formats" title="Permanent link">¶</a>
+        </h2>
+        <ul>
+          <li>Tabular Data (e.g. <span class="caps">CSV</span>&nbsp;etc.)
+          </li>
+          <li>Dot&nbsp;language
+          </li>
+          <li>
+            <span class="caps">XML</span>-based formats
+            <ul>
+              <li>Graph Modelling&nbsp;Language
+              </li>
+              <li>GraphML
+              </li>
+              <li>
+                <span class="caps">GEXF</span>
+              </li>
+            </ul>
+          </li>
+          <li>and more (<span class="caps">RDF</span>, <span class="caps">GML</span>,
+          GraphSON,&nbsp;etc.)
+          </li>
+        </ul>
+        <hr>
+        <h1 id="4-getting-started-with-gephi">
+          <a class="toclink" href="#4-getting-started-with-gephi">4. Getting Started with
+          Gephi</a><a class="headerlink" href="#4-getting-started-with-gephi" title=
+          "Permanent link">¶</a>
+        </h1>
+        <div class="admonition instruction">
+          <p>
+            Open Gephi, create a “New&nbsp;Project”
+          </p>
+        </div>
+        <ul>
+          <li>
+            <p>
+              The Gephi <span class="caps">UI</span> is broken up into 3 main&nbsp;screens
+            </p>
+            <ul>
+              <li>Overview
+              </li>
+              <li>Data&nbsp;Laboratory
+              </li>
+              <li>Preview
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>
+              Panels on the Overview&nbsp;screen
+            </p>
+            <ul>
+              <li>Filters
+              </li>
+              <li>Statistics
+              </li>
+              <li>Appearance
+              </li>
+              <li>Layout
+              </li>
+              <li>Graph
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h2 id="loading-data">
+          <a class="toclink" href="#loading-data">Loading Data</a><a class="headerlink" href=
+          "#loading-data" title="Permanent link">¶</a>
+        </h2>
+        <div class="admonition instruction">
+          <ul>
+            <li>Go to the <strong>Data Laboratory</strong> view, and use the <strong>Import
+            Spreadsheet</strong> function to load a <strong>Nodes</strong> table and an
+            <strong>Edges</strong> table from <code>letters.nodes.csv</code> and
+            <code>letters.edges.csv</code> respectively.
+            </li>
+            <li>Make sure to select <strong><code>Append to existing workspace</code></strong>.
+            </li>
+            <li>Switch to the <strong>Overview</strong>&nbsp;window.
+            </li>
+          </ul>
+        </div>
+        <hr>
+        <h1 id="5-network-visualization">
+          <a class="toclink" href="#5-network-visualization">5. Network Visualization</a><a class=
+          "headerlink" href="#5-network-visualization" title="Permanent link">¶</a>
+        </h1>
+        <p>
+          Initially, Gephi will draw your graph with nodes positioned at random in square
+          configuration. It’s not terribly&nbsp;useful.
+        </p>
+        <div class="admonition instruction">
+          <ul>
+            <li>Begin by selecting <strong>Nodes</strong> in the <strong>Appearance</strong> panel,
+            and selecting the color options. The default setting is <strong>Unique</strong>, with a
+            color value of <code>#c0c0c0</code> — change the color if you wish, and hit
+            <strong>Apply</strong>.
+            </li>
+            <li>Adjust the <strong>Edge Weight Scale</strong> all the way down, so that the edges
+            don’t obscure the&nbsp;nodes.
+            </li>
+            <li>Then select the size options, switch to <strong>Ranking</strong>, and choose <code>
+              Degree</code> as the attribute. Specify <strong>Min size</strong> as <code>10</code>,
+              and <strong>Max size</strong> as <code>100</code>. Hit <strong>Apply</strong>.
+            </li>
+          </ul>
+        </div>
+        <p>
+          We can pan and zoom, and use the <strong>Center on Graph</strong> magnifying-glass button
+          if we get&nbsp;lost.
+        </p>
+        <h2 id="layout">
+          <a class="toclink" href="#layout">Layout</a><a class="headerlink" href="#layout" title=
+          "Permanent link">¶</a>
+        </h2>
+        <p>
+          Graphs can be laid-out by hand (using the <strong>Drag</strong> tool), but typically we
+          will prefer to use automatic layout&nbsp;algorithms.
+        </p>
+        <p>
+          The mathematics of graph-spreading algorithms is a deep and complex topic drawing graph
+          theory as well as on computational geometry and discrete mathematics (see, e.g.
+          http://www.graphdrawing.org/). Fortunately for us, packages like Gephi and the others
+          mentioned above implement the best of these algorithms and make them available for us to
+          use in an interactive way. Less fortunately, they are still not entirely straightforward
+          to&nbsp;use.
+        </p>
+        <p>
+          <strong>Force-Directed&nbsp;Algorithms</strong>
+        </p>
+        <ul>
+          <li>
+            <strong>Fruchtermann-Reingold</strong><br>
+            A classic node-spreading algorithm that disperses nodes according to patterns of
+            attraction and repulsion based on minimizing the total energy of a physical system in
+            which nodes are mass particles and edges are springs between the particles.
+            <ul>
+              <li>Does not take account of edge&nbsp;weight.
+              </li>
+              <li>Suitable only for graphs of around 1,000 nodes or&nbsp;smaller.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="http://yifanhu.net/PUB/graph_draw_small.pdf"><strong>Yifan-Hu
+            (Proportional)</strong></a><br>
+            A force-directed model alongside a multi-level a graph coarsening technique, resulting
+            in an algorithm which is fast enough to be suitable for large graphs while still
+            producing good quality results.
+            <ul>
+              <li>Does not take account of edge&nbsp;weight.
+              </li>
+              <li>Not suitable for use with graphs &gt; 100,000&nbsp;nodes.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>ForceAtlas</strong><br>
+            Force-directed algorithm developed specifically for use in Gephi which is intended for
+            use on smaller, highly-connected graphs.
+            <ul>
+              <li>Uses edge&nbsp;weights.
+              </li>
+              <li>Up to ~10,000&nbsp;nodes.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href=
+            "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098679"><strong>ForceAtlas2</strong></a><br>
+
+            “Improved” version of the original ForceAtlas algorithm in which node repulsion is
+            approximated by a scaling factor, allowing it to work with much larger networks.
+            <ul>
+              <li>Uses edge&nbsp;weights.
+              </li>
+              <li>Up to ~1,000,000&nbsp;nodes.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>OpenOrd</strong><br>
+            Works best with undirected weighted graphs and aims to better distinguish clusters.
+            <ul>
+              <li>Uses edge&nbsp;weights.
+              </li>
+              <li>Appropriate for larger networks ~100 - ~1,000,000&nbsp;nodes.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p>
+          <strong>Other Layout&nbsp;Algorithms</strong>
+        </p>
+        <ul>
+          <li>Geographic&nbsp;Layout
+          </li>
+          <li>Circular / Radial&nbsp;Axis
+          </li>
+          <li>Circle-Packing
+          </li>
+          <li>etc.
+          </li>
+        </ul>
+        <p>
+          <strong>Graphic&nbsp;Adjustments</strong>
+        </p>
+        <ul>
+          <li>Geometric Transformation
+            <ul>
+              <li>Expansion /&nbsp;Contraction
+              </li>
+              <li>Rotation
+              </li>
+            </ul>
+          </li>
+          <li>Noverlap
+          </li>
+          <li>
+            <p>
+              Label&nbsp;Adjust
+            </p>
+          </li>
+          <li>
+            <p>
+              Random
+            </p>
+          </li>
+        </ul>
+        <p>
+          All of these layout algorithms have parameters that we can adjust and tweak, and they
+          usually require a bit of experimentation to get them as we would like for a
+          given&nbsp;network.
+        </p>
+        <div class="admonition instruction">
+          <ul>
+            <li>Choose the <strong>Fruchtermann-Reingold</strong> layout algorithm. Set the
+            <strong>Area</strong> setting to <code>20000.0</code>, and the <strong>Speed</strong>
+            to <code>10.0</code>. The <strong>Gravity</strong> setting should remain at
+            <code>10.0</code>. Hit <strong>Run</strong>.
+            </li>
+            <li>Some layouts, including Fruchtermann-Reingold, will continue to run indefinitely,
+            so when the network has begin to stabilize, click <strong>Stop</strong>.
+            </li>
+            <li>The Fruchtermann-Reingold output can look a little messy, as nodes will overlap —
+            we can neaten up the appearance if we wish by applying the <strong>Noverlap</strong>
+            layout to our&nbsp;result.
+            </li>
+          </ul>
+        </div>
+        <p>
+          With this visualization we can begin to see some clustering emerging with this layout. A
+          <strong>ForceAtlas</strong> approach should highlight these aspects of the network and
+          make them more&nbsp;apparent.
+        </p>
+        <div class="admonition instruction">
+          <ul>
+            <li>Choose the <strong>ForceAtlas 2</strong> layout algorithm. Check the
+            <strong>Prevent overlap</strong> box and uncheck the <strong>Approximate
+            repulsion</strong> box. Also change the <strong>Scaling</strong> setting to
+            <code>50.0</code>. Click the <strong>Run</strong>&nbsp;button.
+            </li>
+            <li>Again, when the network has stabilized, hit <strong>Stop</strong>.
+            </li>
+            <li>Depending on orientation of the network, we may wish to apply the
+            <strong>Rotate</strong> layout to make viewing more&nbsp;convenient.
+            </li>
+          </ul>
+        </div>
+        <h2 id="other-formatting">
+          <a class="toclink" href="#other-formatting">Other Formatting</a><a class="headerlink"
+          href="#other-formatting" title="Permanent link">¶</a>
+        </h2>
+        <p>
+          <strong>Labels</strong>
+        </p>
+        <hr>
+        <h1 id="6-network-statistics">
+          <a class="toclink" href="#6-network-statistics">6. Network Statistics</a><a class=
+          "headerlink" href="#6-network-statistics" title="Permanent link">¶</a>
+        </h1>
+        <p>
+          The spacialization of the nodes in our graph renders information about the nodes and
+          edges in the network. We have also set the size of the nodes to reflect the
+          <em>degree</em> values of nodes. Now we’d like to use the color of the nodes to represent
+          some other network statistics — but first, we’ll need to calculate&nbsp;them.
+        </p>
+        <ul>
+          <li>
+            <strong>Geodesic Distance between two nodes</strong><br>
+            <em>The shortest path between nodes, counted in terms of&nbsp;edges.</em>
+          </li>
+        </ul>
+        <h2 id="network-metrics">
+          <a class="toclink" href="#network-metrics">Network Metrics</a><a class="headerlink" href=
+          "#network-metrics" title="Permanent link">¶</a>
+        </h2>
+        <ul>
+          <li>
+            <strong>Density</strong><br>
+            <em>The ratio of the number of edges to the number of possible edges in
+            the&nbsp;network.</em>
+          </li>
+          <li>
+            <strong>Average Degree</strong><br>
+            <em>The ratio of the number of edges to the number of nodes in the network.</em> For
+            undirected graphs, each edge is counted twice (i.e. as in-bound <em>and</em> out-bound)
+            when calculating average&nbsp;degree.
+          </li>
+          <li>
+            <strong>Diameter</strong><br>
+            <em>The longest of all the calculated shortest paths in the&nbsp;network.</em>
+          </li>
+          <li>
+            <strong>Average Geodesic Distance</strong> (a.k.a. <em>characteristic path length</em>,
+            <em>average path length</em>)<br>
+            <em>The average over the shortest paths between all pairs of&nbsp;nodes.</em>
+          </li>
+          <li>
+            <strong>Clustering Coefficient</strong><br>
+            <em>The average of the clustering coefficients of all the nodes.</em> The clustering
+            coefficient of a node is the ratio of edges connecting a node’s immediate neighbors to
+            each other to the maximum possible number of such&nbsp;edges.
+          </li>
+        </ul>
+        <table>
+          <thead>
+            <tr>
+              <th align="center"></th>
+              <th align="center"></th>
+              <th align="center"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center">
+                <img alt="7 Nodes, 21 Edges" src="images/7_nodes-21_edges.300x294.png">
+              </td>
+              <td align="center">
+                <img alt="10 Nodes, 15 Edges" src="images/10_nodes-15_edges.300x300.png">
+              </td>
+              <td align="center">
+                <img alt="12 Nodes, 18 Edges" src="images/12_nodes-18_edges.300x265.png">
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                Nodes: 7
+              </td>
+              <td align="center">
+                Nodes: 10
+              </td>
+              <td align="center">
+                Nodes: 12
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                Edges: 21
+              </td>
+              <td align="center">
+                Edges: 15
+              </td>
+              <td align="center">
+                Edges: 18
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                Density: 21/21 == 1
+              </td>
+              <td align="center">
+                Density: 15/45 == 0.33
+              </td>
+              <td align="center">
+                Density: 18/66 == 0.27
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                Avg. Degree: 42/7 == 6
+              </td>
+              <td align="center">
+                Avg. Degree: 30/10 == 3
+              </td>
+              <td align="center">
+                Avg. Degree: 36/12 == 3
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                Diameter: 1
+              </td>
+              <td align="center">
+                Diameter: 2
+              </td>
+              <td align="center">
+                Diameter: 4
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                Avg. Geodesic Dist.: 1
+              </td>
+              <td align="center">
+                Avg. Geodesic Dist.: 1.67
+              </td>
+              <td align="center">
+                Avg. Geodesic Dist.: 2.045
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                Clustering Coef.: 1
+              </td>
+              <td align="center">
+                Clustering Coef.: 0
+              </td>
+              <td align="center">
+                Clustering Coef.: 0.167
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="node-metrics">
+          <a class="toclink" href="#node-metrics">Node Metrics</a><a class="headerlink" href=
+          "#node-metrics" title="Permanent link">¶</a>
+        </h2>
+        <p>
+          Node metrics are usually concerned with trying in different ways to assess the relative
+          significance of nodes in the network. “Which nodes in the network should be targeted to
+          ensure that a message or information spreads to all or most nodes in the network?” or
+          conversely, “Which nodes should be targeted to curtail the spread of a&nbsp;disease?”
+        </p>
+        <p>
+          <strong>Degree</strong><br>
+          The <em>degree</em> of a node is the number of edges that are incident to&nbsp;it.
+        </p>
+        <ul>
+          <li>For <em><strong>directed</strong></em> graphs, <em><strong>in-degree</strong></em>
+          and <em><strong>out-degree</strong></em> count those edges of which the node is the
+          target and the source&nbsp;respectively.
+          </li>
+          <li>For graphs with weighted edges, <em><strong>weighted degree</strong></em> (and
+          <em><strong>weighted in-degree</strong></em> / <em><strong>weighted
+          out-degree</strong></em>) take account of the those&nbsp;weights.
+          </li>
+        </ul>
+        <div class="admonition instruction">
+          <p>
+            Because this network is <em>directed</em>, the unqualified <em>degree</em> value
+            indicated by the size of the nodes is an aggregation of the in-bound connections and
+            the out-bound connections. Furthermore, it is a naïve sum of all those connections,
+            without regard for their individual&nbsp;weight.
+          </p>
+          <ul>
+            <li>On the <strong>Statistics</strong> panel, find <strong>Avg. Weighted
+            Degree</strong>, and click the <strong>Run</strong> button next to it. This calculates
+            the appropriate statistic and adds a new column to our data&nbsp;table.
+            </li>
+            <li>On the <strong>Appearance</strong> panel, select <strong>Nodes</strong> and open
+            the color settings. Choose <strong>Ranking</strong>, and select the attribute
+            <code>Weighted In-Degree</code>. Click <strong>Apply</strong>.
+            </li>
+          </ul>
+          <p>
+            Notice that the nodes with the highest <em><strong>degree</strong></em> (the largest
+            nodes) are not universally those with the highest <em><strong>in-degree</strong></em>
+            (the lightest&nbsp;color).
+          </p>
+        </div>
+        <p>
+          <strong>Centrality</strong>
+        </p>
+        <p>
+          <img alt="Centrality Measures" class="pull-left" src="images/centralities.300x330.png">
+        </p>
+        <ul>
+          <li>
+            <strong>Betweenness</strong> — on most shortest paths <strong>(A)</strong><br>
+            <em>the number of times a node acts as a bridge along the shortest path between two
+            other&nbsp;nodes</em>
+          </li>
+          <li>
+            <strong>Closeness</strong> — closeness to other nodes <strong>(B)</strong><br>
+            <em>the average length of the shortest path between a node and all other nodes in
+            the&nbsp;graph</em>
+          </li>
+          <li>
+            <strong>Eigenvector</strong> — connected to well-connected nodes <strong>(C)</strong>
+          </li>
+          <li>
+            <strong>Degree</strong> — number of connections <strong>(D)</strong>
+          </li>
+        </ul>
+        <div class="admonition instruction">
+          <ul>
+            <li>To generate the centrality statistics for each of our nodes, find <strong>Network
+            Diameter</strong> on the <strong>Statistics</strong> panel, and click the
+            <strong>Run</strong> button next to&nbsp;it.
+            </li>
+            <li>On the <strong>Appearance</strong> panel, select <strong>Nodes</strong> and open
+            the color settings. Choose <strong>Ranking</strong>, and select the attribute
+            <code>Betweenness Centrality</code>. Click <strong>Apply</strong>.
+            </li>
+          </ul>
+          <p>
+            Notice again that the nodes with the highest <em><strong>degree</strong></em> are not
+            universally those with the highest <em><strong>betweenness centrality</strong></em>.
+          </p>
+        </div>
+        <p>
+          <strong>Influence</strong>
+        </p>
+        <blockquote>
+          <p>
+            Limitations to centrality measures have led to the development of more general
+            measures. Two examples are the <strong>accessibility</strong>, which uses the diversity
+            of random walks to measure how accessible the rest of the network is from a given start
+            node, and the <strong>expected force</strong>, derived from the expected value of the
+            force of infection generated by a node. Both of these measures can be meaningfully
+            computed from the structure of the network&nbsp;alone.
+          </p>
+        </blockquote>
+        <p>
+          <strong>Modularity</strong><br>
+          Gephi includes an implementation of an algorithm that can calculate modularity classes
+          which can be used to identify subdivisions in a network. In Social Network Analysis,
+          these subdivisions are usually referred to as <strong>communities</strong>.
+        </p>
+        <div class="admonition instruction">
+          <ul>
+            <li>To generate the modularity classes, click the <strong>Run</strong> button next to
+            <strong>Modularity</strong> in the <strong>Statistics</strong>&nbsp;panel.
+            </li>
+            <li>On the <strong>Appearance</strong> panel, select <strong>Nodes</strong> and open
+            the color settings. Choose <strong>Partition</strong>, and select the attribute <code>
+              Modularity Class</code>. Click <strong>Apply</strong>.
+            </li>
+          </ul>
+        </div>
+        <h2 id="considerations-when-analyzing-networks">
+          <a class="toclink" href="#considerations-when-analyzing-networks">Considerations when
+          Analyzing Networks</a><a class="headerlink" href=
+          "#considerations-when-analyzing-networks" title="Permanent link">¶</a>
+        </h2>
+        <p>
+          https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007434
+        </p>
+        <h1 id="7-publishing-visualizations">
+          <a class="toclink" href="#7-publishing-visualizations">7. Publishing
+          Visualizations</a><a class="headerlink" href="#7-publishing-visualizations" title=
+          "Permanent link">¶</a>
+        </h1>
+        <h2 id="the-preview-screen">
+          <a class="toclink" href="#the-preview-screen">The Preview screen</a><a class="headerlink"
+          href="#the-preview-screen" title="Permanent link">¶</a>
+        </h2>
+        <h2 id="print">
+          <a class="toclink" href="#print">Print</a><a class="headerlink" href="#print" title=
+          "Permanent link">¶</a>
+        </h2>
+        <h2 id="on-the-web">
+          <a class="toclink" href="#on-the-web">On the Web</a><a class="headerlink" href=
+          "#on-the-web" title="Permanent link">¶</a>
+        </h2>
+        <h2 id="gephi-plugins">
+          <a class="toclink" href="#gephi-plugins">Gephi Plugins</a><a class="headerlink" href=
+          "#gephi-plugins" title="Permanent link">¶</a>
+        </h2>
+        <ul>
+          <li>GeoLayout
+          </li>
+          <li>Sigma/<span class="caps">JS</span>…
+          </li>
+        </ul>
+      </article>
+    </main>
+    <footer>
+      <p class="wrapped">
+        This workshop is part of the CIDR Workshop Series.<br>
+        See upcoming workshops at https://cidr.stanford.edu/workshops/
+      </p>
+    </footer>
+  </body>
+</html>
+
