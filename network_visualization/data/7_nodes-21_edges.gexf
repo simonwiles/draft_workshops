@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2020-02-18">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="0">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-19.230879" y="-32.10701"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="1">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-16.018383" y="-1.8292538"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="2">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="12.268792" y="15.313599"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="3">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="44.054485" y="6.105265"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="4">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="52.68883" y="-25.929825"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="5">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="4.7001047" y="-56.981308"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="6">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="34.880093" y="-54.324993"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="5" source="1" target="0">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="6" source="1" target="6">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="8" source="1" target="5">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="9" source="1" target="4">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="10" source="1" target="3">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="11" source="1" target="2">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="12" source="0" target="2">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="14" source="0" target="3">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="15" source="0" target="6">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="16" source="0" target="4">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="17" source="0" target="5">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="18" source="6" target="2">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="19" source="6" target="3">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="20" source="6" target="4">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="21" source="6" target="5">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="22" source="5" target="2">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="23" source="5" target="3">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="25" source="5" target="4">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="26" source="4" target="2">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="27" source="4" target="3">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="28" source="3" target="2">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

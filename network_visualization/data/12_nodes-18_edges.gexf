@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2020-02-18">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="0">
+        <attvalues>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4583333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5681818181818181"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.5"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-111.2267" y="-196.04608"></viz:position>
+        <viz:color r="63" g="177" b="125"></viz:color>
+      </node>
+      <node id="1">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5238095238095238"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6060606060606061"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-128.61919" y="34.515045"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="2">
+        <attvalues>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4583333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5681818181818182"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.5"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-179.90158" y="-105.749725"></viz:position>
+        <viz:color r="63" g="177" b="125"></viz:color>
+      </node>
+      <node id="3">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5238095238095238"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.606060606060606"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-509.69897" y="-312.56863"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="4">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5238095238095238"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.606060606060606"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-336.05655" y="-487.83777"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="5">
+        <attvalues>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4583333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5681818181818181"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.5"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-282.8077" y="-338.2458"></viz:position>
+        <viz:color r="63" g="177" b="125"></viz:color>
+      </node>
+      <node id="6">
+        <attvalues>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4583333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5681818181818182"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.5"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-334.9121" y="-250.27539"></viz:position>
+        <viz:color r="63" g="177" b="125"></viz:color>
+      </node>
+      <node id="7">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5238095238095238"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6060606060606061"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="44.253075" y="-172.30453"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="8">
+        <attvalues>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4583333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5681818181818181"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.5"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-320.60205" y="-151.23447"></viz:position>
+        <viz:color r="63" g="177" b="125"></viz:color>
+      </node>
+      <node id="9">
+        <attvalues>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4583333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5681818181818181"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.5"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-145.39525" y="-297.4305"></viz:position>
+        <viz:color r="63" g="177" b="125"></viz:color>
+      </node>
+      <node id="10">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5238095238095238"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.606060606060606"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-437.64682" y="-13.771698"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="11">
+        <attvalues>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5238095238095238"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.606060606060606"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="22.169415" y="-426.75546"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="20" source="7" target="11">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="21" source="11" target="4">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="22" source="4" target="3">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="23" source="3" target="10">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="24" source="10" target="1">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="25" source="1" target="7">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="26" source="7" target="0">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="27" source="0" target="5">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="28" source="5" target="8">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="29" source="8" target="0">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="30" source="11" target="9">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="31" source="9" target="6">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="32" source="6" target="2">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="33" source="2" target="9">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="34" source="2" target="1">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="35" source="8" target="10">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="36" source="6" target="3">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+      <edge id="37" source="5" target="4">
+        <viz:color r="128" g="128" b="128"></viz:color>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

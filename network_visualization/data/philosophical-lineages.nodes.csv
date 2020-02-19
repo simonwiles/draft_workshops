@@ -1,0 +1,1308 @@
+id,name,detail,date,stature,school
+2,1 Teng Hsi,lawyer/debater,-500,Minor philosopher,
+3,2 Yen Hui,Confucian,-500,Minor philosopher,
+4,3 Tzu-lu,Confucian,-500,Minor philosopher,
+5,4 Tzu Kung,"Confucian, diplomat",-500,Minor philosopher,
+6,5 Jan Yu,politician,-500,Minor philosopher,
+7,6 Chung Kung,Confucian,-500,Minor philosopher,
+8,7 Yu Tzu,soldier,-500,Minor philosopher,
+9,8 Tseng Hsi,Confucian,-500,Minor philosopher,
+10,9 Tzu-hsia,f. school of Confucian disciples,-500,Minor philosopher,
+11,10 Tzu-yu,same,-500,Minor philosopher,Confucian school
+12,11 Tzu-chang,same,-500,Minor philosopher,Confucian school
+13,12 Mi Tzu-chien,Confucian,-500,Minor philosopher,
+14,13 Tzu-ch'ih,Confucian,-500,Minor philosopher,
+15,14 Tzu-hua,Confucian,-500,Minor philosopher,
+16,15 Shih Shih,Confucian,-500,Minor philosopher,
+17,16 Ch'i Tiao-K'ai,f. school of Confucian disciples,-500,Minor philosopher,
+18,17 Kung-sun Ni-tzu,Confucian,-500,Minor philosopher,Confucian school
+19,18 Fu Tzu-chien,Confucian,-500,Minor philosopher,
+20,19 Tzu-ssu,Confucius' grandson; f. school of disciples,-500,Minor philosopher,Confucian school
+21,19a? Chung-liang,f. school of Confucian disciples,-500,Minor philosopher,Confucian school
+22,20 T'ien Tzu-Fung,"Confucian, instructor of kings",-500,Minor philosopher,Confucian school
+23,21 Tuan-kun Mu,same,-500,Minor philosopher,Confucian school
+24,22 Wu Ch'i,Confucian general,-500,Minor philosopher,Confucian school
+25,23 Kung-meng Tzu,Confucian,-500,Minor philosopher,Confucian school
+26,23a Li K'uei,agriculturalist politician,-500,Minor philosopher,
+27,24 Ch'eng-tzu,Confucian,-500,Minor philosopher,Confucian school
+28,25 Keng Chu,Mohist,-500,Minor philosopher,Mohists
+29,26 Sui Ch'ao Ti,Mohist,-500,Minor philosopher,Mohists
+30,27 Wii Lu,agriculturalist self-sufficiency,-400,Minor philosopher,agriculturalist primitivist
+31,28 Ch'in Ku-li,major disciple of Mo Ti,-400,Minor philosopher,Mohists
+32,29 Tzu Hua Tzu,Yang Chu follower,-365,Minor philosopher,
+33,30 Yi Chili,Mohist,-365,Minor philosopher,Mohists
+34,31 Hsu Fan,"from Mohist school; neo-Confucian, possibly identical w Hsii Hsing",-365,Minor philosopher,agriculturalist primitivist
+35,32 Ch'en Hsiang,agriculturalist primitivist,-365,Minor philosopher,agriculturalist primitivist
+36,33 Ch'en Liang,,-365,Minor philosopher,
+37,34? Shih Ch'iu,individualist like Ch'en Chung,-365,Minor philosopher,
+38,35 Kung-tu Tzu,disciple of Mencius,-365,Minor philosopher,Confucian school
+39,36 Wan Chang,same,-365,Minor philosopher,Confucian school
+40,37 Meng Chi Tzu,same,-365,Minor philosopher,Confucian school
+41,38 Kungsun Ch'ou,same,-365,Minor philosopher,Confucian school
+42,39 Shunyu Kun,"debater at Wei court, then Chi-hsia Academy",-365,Minor philosopher,
+43,40 Ch'en Chung,agriculturalist primitivist; of Ch'i royal house,-365,Minor philosopher,
+44,43 P'eng Meng,,-365,Minor philosopher,
+45,45 Chieh Tzu,Chi-hsia Acad.,-365,Minor philosopher,
+46,46 Huan Yuan,Chi-hsia Acad.,-365,Minor philosopher,
+47,47 Wei Mou,"Prince of Wei, hedonist/individualist",-365,Minor philosopher,
+48,49 Yo-cheng Tzu-chun,"school of Tseng-Tzu, Confucian",-365,Minor philosopher,Confucian school
+49,50 K'ung Chuan,descendant of Confucius,-365,Minor philosopher,Confucian school
+50,51 Huan T'uan,,-300,Minor philosopher,
+51,52 T'ien Pa,,-300,Minor philosopher,
+52,53 Mao Kung,Kung-sun Lung disciple,-300,Minor philosopher,
+53,54 Ch'imu Tzu,same,-300,Minor philosopher,
+54,55 Chan Tzu,,-300,Minor philosopher,
+55,56 Fan Sui,"Wei diplomat, debater, prime minister of Chin",-300,Minor philosopher,
+56,57 Wu Hou,leader of Mohist faction,-300,Minor philosopher,Mohists
+57,58 Hsiang-li Ch'in,leader of Mohist faction,-300,Minor philosopher,Mohists
+58,59 T'eng-ling Tzu,Mohist faction of the south,-300,Minor philosopher,
+59,60 Ku Huo,same,-300,Minor philosopher,
+60,61 Chi Ch'ih,same,-300,Minor philosopher,
+61,62 Tsou Shih,Chi-hsia Acad.,-300,Minor philosopher,
+62,63 Yii Ching,prime Minister of Pingyuan court; patron of Yu's Spring and Autumn Annals,-300,Minor philosopher,
+63,64 Lu Pu-wei,prime minister of Chin; patron of Lu's Spring and Autumn Annals,-300,Minor philosopher,
+64,65 Fii-ch'iu Po,,-300,Minor philosopher,
+65,66 Mao Heng,textual scholar,-300,Minor philosopher,
+66,200 B.C.E.,,-300,Minor philosopher,
+67,67 Meng Ch'ing,Lanling school of Hsun-tzu,-200,Minor philosopher,
+68,68 Shen Pei,teacher of numerous Han officials and Erudites,-200,Minor philosopher,
+69,68a Kung-yang Chin,transmitted interpretation of Spring and Autumn Annals from Confucian family chain,-200,Minor philosopher,
+70,69 Liu Chiao,,-200,Minor philosopher,
+71,70 Mao Chang,textual scholar,-200,Minor philosopher,
+72,71 Chang Ts'ang,"Yin-Yang, calendar, Han court",-200,Minor philosopher,
+73,72 Fu Shang,textual scholar; restored destroyed texts from memory,-200,Minor philosopher,
+74,73 Chang Liang,"Taoist immortality magic, Han court",-200,Minor philosopher,Taoist magician or church leader
+75,74 Chia I,Yin-Yang; famous poet,-200,Minor philosopher,
+76,75 Hsiahou Shih-Ch'ang,,-200,Minor philosopher,
+77,76 Hsiahou Sheng,,-200,Minor philosopher,
+78,77 Hsiahou Ch'ien,,-200,Minor philosopher,
+79,78 Ouyang Sheng,Five Agents; occult portents; New Text school,-200,Minor philosopher,
+80,79 Ouyang Kao,same,-200,Minor philosopher,
+81,80 Hu K'ang,"textual scholar: Annals, I Ching",-200,Minor philosopher,Confucian school
+82,80a Hu-wu Cheng,"Annals, Erudite",-200,Minor philosopher,
+83,80b Kung-sun Hung,"head of Erudites, prime minister of Emperor Wu",-200,Minor philosopher,
+84,80c Lu P'ou-chou,disciple of Tung Chung-shu; prosecuted Liu An,-200,Minor philosopher,
+85,81 Shu Kuang,same as 80,-200,Minor philosopher,
+86,82 Meng Hsi,"same as 78 and 79, Lanling school",-200,Minor philosopher,
+87,83 K'ung An-kuo,descendant of Confucius; began study of old texts,-200,Minor philosopher,
+88,84 Ts'ou Pa,Book of History,-200,Minor philosopher,
+89,85 Shu-sun Tung,Confucian court ritual,-200,Minor philosopher,Confucian school
+90,86 Li Shao-chiin,"Taoist magic, Han court",-200,Minor philosopher,Taoist magician or church leader
+91,87 Min Chi,same,-200,Minor philosopher,Taoist magician or church leader
+92,88 Liu Pi-chiang,,-100,Minor philosopher,
+93,89 Liu Te,,-100,Minor philosopher,
+94,91 Ssu-ma Ch'ien,historian,-100,Minor philosopher,
+95,92 Chiao Kan,divination,-100,Minor philosopher,numerologist/diviner
+96,93 Ching Fang,same,-100,Minor philosopher,numerologist/diviner
+97,94 Yen Chun-ping,diviner; Tao Te Ching and Chuang Tzu scholar,-100,Minor philosopher,numerologist/diviner
+98,95 An-ch'iu Wang-jih,"shaman/physician, Tao Te Ching scholar",1,Minor philosopher,Taoist magician or church leader
+99,96 Chia K'uei,"eclectic cm., Old Text school",1,Minor philosopher,
+100,97 Ts'ao Pao,numerology group leader,1,Minor philosopher,numerologist/diviner
+101,98 Ma Jung,"Confucian cm., Old Text school, anti-occult skeptic",100,Minor philosopher,
+102,99 Wang Fu,"Confucian political phil, anti-occult skeptic",100,Minor philosopher,"politician, skeptic, anti-occult"
+103,100 Wei Po-Yang,"Taoist, first alchemy book +",100,Minor philosopher,
+104,101 Yii Chi,pop. Taoist cult,100,Minor philosopher,Taoist magician or church leader
+105,102 Chang Tao-Ling,"Taoist healing cult, military org., Szechuan",100,Minor philosopher,Taoist magician or church leader
+106,103? Ho Shang Kung,Tao Te Ching cm. +,100,Minor philosopher,
+107,104 Chang Heng,same as 102,100,Minor philosopher,
+108,105 Chang Lu,f. Taoist church,100,Minor philosopher,Taoist magician or church leader
+109,106 Chang Chueh,"Tao of Great Peace, Yellow Turban uprising",100,Minor philosopher,Taoist magician or church leader
+110,107 Ho Hsiu,Confucian religion +,100,Minor philosopher,
+111,107b Yii Fan,"Confucian, Yi Ching cm., numerology +",100,Minor philosopher,
+112,108 Hsun Shuang,,100,Minor philosopher,
+113,109 Hsun Yiieh,"Confucian, anti-Taoist, anti-occult skeptic",100,Minor philosopher,"Confucian, skeptic, anti-occult"
+114,110 Ts'ai Yung,"anti-occult skeptic, astronomer",100,Minor philosopher,"skeptic, anti-occult"
+115,111 Wang K'ai,"bequeathed library to son, 117",100,Minor philosopher,
+116,112 Liu Pao,patron of Ching-Chou Academy Old Text scholars,100,Minor philosopher,
+117,113 Wang Lang,anti-occult skeptic +,200,Minor philosopher,
+118,114 Tso Tzu,Taoist magician,200,Minor philosopher,Taoist magician or church leader
+119,115 Ko Hsuan,"religious Taoist, south China",200,Minor philosopher,Taoist magician or church leader
+120,116 Wang Ts'an,inherited library of 110,200,Minor philosopher,
+121,117 Wang Yeh,father of Wang Pi,200,Minor philosopher,
+122,118 Ouyang Chien,,200,Minor philosopher,
+123,119 Wang Tao,,200,Minor philosopher,
+124,120 Yin Jung,or Hsiin Jung,200,Minor philosopher,
+125,121 Hsia-hou Hsuan,,200,Minor philosopher,
+126,122 Wang Su,"Confucian, high Wei official; Old Text school, K'ung-Ts'ung Tzu author?",200,Minor philosopher,
+127,123 Juan Chi,"poet, Seven Sages of the Bamboo Grove",200,Minor philosopher,poet
+128,124 Shan T'ao,"statesman, general, Seven Sages",200,Minor philosopher,
+129,125 Juan Hsian,Seven Sages,200,Minor philosopher,
+130,126 Wang Jung,same,200,Minor philosopher,
+131,127 Liu Ling,same,200,Minor philosopher,
+132,128 Wang Teng,"Pure Conversation, nudist circle",200,Minor philosopher,nudist circle
+133,129 Wang Yen,same,200,Minor philosopher,nudist circle
+134,130 Juan Chan,same,200,Minor philosopher,nudist circle
+135,131 Hsu Kun,same,200,Minor philosopher,nudist circle
+136,132 Humu Yen-Kuo,same,200,Minor philosopher,nudist circle
+137,133 Pi Cho(same,,200,Minor philosopher,nudist circle
+138,134 Yueh Kuang,Name/Principle doctrine,200,Minor philosopher,
+139,134a Hsieh Hsuan,same,200,Minor philosopher,
+140,135 P'ei Wei,"skeptic, anti-nihilist",200,Minor philosopher,"skeptic, anti-occult"
+141,135a Ssu-ma P'iao,"cm. Chuang Tzu, Mohist Canons +",200,Minor philosopher,
+142,136 Juan Fou,"libertine, Pure Conversation",200,Minor philosopher,
+143,137 Wei Chieh,Pure Conversation,200,Minor philosopher,
+144,138? Lu Sheng,cm. Mohist Canons,200,Minor philosopher,Mohists
+145,139 Chueh Kung-tse,Buddhist Pure Land +,200,Minor philosopher,
+146,140 Wei Shih-tu,same +,200,Minor philosopher,
+147,141 Dharmaraksha,"Buddhist at Tun Huang, central Asia +",200,Minor philosopher,
+148,"142 ""Pao Ching-yen""","Taoist radical, mythical?",300,Minor philosopher,
+149,143 Wang Pao,Taoist magician,300,Minor philosopher,Taoist magician or church leader
+150,144 Wei Hua-Ts'un,"woman; ""revelations"" of Taoist scriptures",300,Minor philosopher,Taoist magician or church leader
+151,145 Tu Ching,Taoist church leader,300,Minor philosopher,
+152,146 Sun Tai,f. Taoist sect,300,Minor philosopher,Taoist magician or church leader
+153,147 Sun En,"Taoist rebel, south coast",300,Non-philosopher,Taoist magician or church leader
+154,148 Yang Hsi,revelations of Taoist scriptures,300,Minor philosopher,Taoist magician or church leader
+155,149 Hsu Mi,Taoist theologian,300,Minor philosopher,Taoist magician or church leader
+156,150 Hsu Hui,Taoist,300,Minor philosopher,Taoist magician or church leader
+157,151 Hsu Mai,father of 149,300,Minor philosopher,
+158,152 Wang Hsi-chih,1st great calligrapher,300,Non-philosopher,
+159,"153 ""Pure Conversation"" circle",,300,Minor philosopher,
+160,154 Yin Hao,Buddhist layman,300,Minor philosopher,Buddhist
+161,155 Sun Ch'o,"Buddhist, sync. w Taoism and Confucianism",300,Minor philosopher,Buddhist (Taoist syncretist)
+162,156 Wang Pan-chih,"Confucian, criticized Taoism",300,Minor philosopher,Confucian school
+163,157 Ko Ch'ao-fu,Ko family; estab. Taoist scriptures,300,Minor philosopher,Taoist magician or church leader
+164,158 Ts'ui Hao,"Confucian, Taoist, Northern Wei minister; persecuted Buddhism",300,Minor philosopher,"Confucian, Taoist politician"
+165,159 K'ou Ch'ien-chih,"Taoist ""pope"" in Northern Wei state",300,Minor philosopher,Taoist pope
+166,160 Mao Hsui-chih,Taoist disciple,300,Minor philosopher,Taoist magician or church leader
+167,161 Ch'eng-Kung Hsing,Buddhist,300,Minor philosopher,"Buddhist, Taoist magician or church leader"
+168,162 Shih T'an-ying,Buddhist,300,Minor philosopher,Buddhist
+169,163 Fa-hsian,"Buddhist pilgrim, tr. Lotus sutra",300,Minor philosopher,Buddhist
+170,164 Chih-yen,Buddhist traveler to Kashmir,300,Minor philosopher,
+171,165 Buddhabhadra,Buddhist monk from Kashmir,300,Minor philosopher,
+172,166 T'an-chi,"Madhyamika ""Three Treatise school""",300,Minor philosopher,Madhyamika
+173,167 Seng-tao,Sautrantika school,300,Minor philosopher,Sautrantika
+174,168 Seng-sung,Sautrantika school,300,Minor philosopher,Sautrantika
+175,169 Seng-jui,Buddhist,300,Minor philosopher,
+176,170 Hui Kuan,"Buddhist, debated Tao Sheng vs. sudden Enlightenment",300,Minor philosopher,
+177,171 Fa-yen,Pure Land,400,Minor philosopher,Pure Land (B faith-salvation)
+178,172 Fa-hao,Pure Land,400,Minor philosopher,Pure Land (B faith-salvation)
+179,173 Chu Fa-t'ai,Pure Land,400,Minor philosopher,Pure Land (B faith-salvation)
+180,174 T'an Chi,,400,Minor philosopher,
+181,175 Seng-lang,"Madhyamika, separated from Sautrantika",400,Minor philosopher,Madhyamika
+182,176 Fa-yao,"pop. Nirvana sutra preacher, south China",400,Minor philosopher,Buddhist
+183,177 Ro-ling,same,400,Minor philosopher,Buddhist
+184,178 Seng-yu,continued Tao-An's catalogue of Buddhist texts,400,Minor philosopher,Buddhist
+185,179 Fan Chen,"skeptic anti-Buddhist, south China",400,Minor philosopher,Confucian school
+186,180 Hsun Chi,same,400,Minor philosopher,Confucian school
+187,181 Ku Huan,"anti-Buddhist, compiled Taoist scriptures",400,Minor philosopher,Taoist magician or church leader
+188,182 Lu Hsin-ch'ing,"Taoist reformer, compiler, alc",400,Minor philosopher,"Taoist, alchemist, immortality-seeker"
+189,183 Sun Yu-yueh,"Taoist, Southern capital",400,Minor philosopher,Taoist magician or church leader
+190,184 T'ao Hung-ching,"f. Taoist sect; occultist, alc",400,Minor philosopher,Taoist magician or church leader
+191,185 Chou Yung,Buddhist syncretizer w Taoism and Confucianism,400,Minor philosopher,"Buddhist, Taoist, Confucian, syncretist"
+192,186 Chang Jung,same,400,Minor philosopher,"Buddhist, Taoist, Confucian, syncretist"
+193,187 Meng Ching-I,same,400,Minor philosopher,"Buddhist, Taoist, Confucian, syncretist"
+194,188 Wang Yuan-chih,"Taoist charms, talismans",500,Minor philosopher,Taoist magician or church leader
+195,189 Chou Tzu-liang,"Taoist scripture ""revelations""",500,Minor philosopher,Taoist magician or church leader
+196,190 Fan Yuan-wen,Taoist,500,Minor philosopher,Taoist magician or church leader
+197,191 Buddhasanta,Buddhist fr. India,500,Minor philosopher,Buddhist
+198,192 Seng-ch'ou,Buddhist meditation master,500,Minor philosopher,Buddhist
+199,193 Sun Wen-ming,"estab. Taoist pantheon, monasteries",500,Minor philosopher,Taoist magician or church leader
+200,194 Hui-chiao,Buddhist biogs. of famous monks +,500,Minor philosopher,
+201,195 Liu Chou,"sync. Buddhism, Taoism, Confucianism",500,Minor philosopher,"Buddhist, Taoist, Confucian, syncretist"
+202,196 Hsin-hsing,f. Buddhist apocalyptic sect of Three Stages +,500,Minor philosopher,
+203,197 Bodhiruci,"fr. India, tr. Vasubandhu, Pure Land",500,Minor philosopher,"Buddhist, translater. Pure Land"
+204,198 Ratnamati,same,500,Minor philosopher,"Buddhist, translater"
+205,199 Hui Kuang,Buddhist Store-consciousness,500,Minor philosopher,
+206,200 T'an Luan,f. Pure Land sect; converted fr. magic Taoism,500,Minor philosopher,Pure Land (B faith-salvation)
+207,201 Fa-shang,Store-consc. and Pure Land,500,Minor philosopher,Buddhist
+208,202 Tao-chung,"Store-consc., Northern branch",500,Minor philosopher,Buddhist
+209,203 Cheng Tao-chao,"Buddhist, replied to Taoist attacks by 179",500,Minor philosopher,Buddhist vs. Taoist
+210,204 Lo Ch'un-chang,same,500,Minor philosopher,Buddhist vs. Taoist
+211,205 Fan-yun,Sautrantika text scholar,500,Minor philosopher,Sautrantika
+212,206 Chih-tsang,same,500,Minor philosopher,Sautrantika
+213,207 Seng-min,same,500,Minor philosopher,Sautrantika
+214,208 Hui-wen,Lotus sutra,500,Minor philosopher,T'ien-t'ai
+215,209 Seng-chuan,Madhyamika,500,Minor philosopher,Madhyamika
+216,210 Fa-lang,same; crit. Sautrantika/Sattyasidhi school,500,Minor philosopher,Madhyamika vs. Sautrantika
+217,211 Paramartha,st. India; tr. Abhidharma realism & Mahayana idealism,500,Minor philosopher,"translator. Abhidharma, Yogacara (B idealism)"
+218,212 20 minor disciples of Hui-K'o,,500,Minor philosopher,
+219,213 Seng-ts'an,alleged Ch'an 3rd patriarch,500,Minor philosopher,Ch'an (Zen)
+220,214 minor disciple of Hui-K'o,,500,Minor philosopher,
+221,215 Hui-kuan,"transmitted Madhyamika to Korea, Japan",600,Minor philosopher,Madhyamika
+222,216 Tao-cho,"T'ien-T'ai monk, Pure Land proselytizer",600,Minor philosopher,"T'ien-t'ai, Pure Land"
+223,217 Kuang-ting,recorded Chih-I's lectures,600,Minor philosopher,T'ien-t'ai
+224,218 Shan-tao,Pure Land,600,Minor philosopher,
+225,219 Fa-chung,Buddhist,600,Minor philosopher,
+226,220 Tao-hsin,Ch'an,600,Minor philosopher,Ch'an (Zen)
+227,221 Fa-shun,"Hua-yen, imperial patronage",600,Minor philosopher,"Hua-yen, T'ien-t'ai"
+228,222 Yiieh Tai,ed. Mo Tzu +,600,Minor philosopher,
+229,223 Wei Cheng,"Confucian, imperial librarian +",600,Minor philosopher,
+230,224 Wang T'ung,Confucian +,600,Minor philosopher,
+231,225 Kung Ying Ta,"cm. 5 Agents, Yi Ching +",600,Minor philosopher,
+232,226 Lu Ts'ai,"5 Agents, skeptical preface on divination +",600,Minor philosopher,
+233,227 Fu Yi,"Confucian, won court debate vs. Buddhist thaumaturge +",600,Minor philosopher,
+234,228 Chih-Yen,Hua-yen,600,Minor philosopher,Hua-yen
+235,229 Siksananda,"fr. Khotan, tr.",600,Minor philosopher,"Buddhist, translater"
+236,230 Divakara,"fr. India, tr.",600,Minor philosopher,"Buddhist, translater"
+237,231 Divaprajna,same,600,Minor philosopher,"Buddhist, translater"
+238,232 Li T'ung-hsuan,"Hua-yen, Buddhist salvation",600,Minor philosopher,Hua-yen
+239,233 Kuei-chi,completed Abhidharma realist system; systematized Yogacara,600,Minor philosopher,"Abhidharma, Yogacara"
+240,234 Tao-hsiian,"Buddhist, f. Vinaya disciplinary school",600,Minor philosopher,
+241,235 Fa-min,,600,Minor philosopher,
+242,236 Hui-ming,,600,Minor philosopher,
+243,237 Fa-ju,Ch'an,600,Minor philosopher,
+244,238 Fa-jung,f. Oxhead school? Ch'an & Madhyamika,600,Minor philosopher,"Madhyamika, Ch'an (Zen)"
+245,239 Lao-an,Ch'an Northern school,600,Minor philosopher,Ch'an Northern School
+246,240 Fa-chih,f. Oxhead school? meditation master; Amitabha devotee,600,Minor philosopher,"Ch'an (Zen), Pure Land"
+247,240a Chih-wei,Oxhead school,600,Minor philosopher,
+248,240b Hsuan-Chih,"Ch'an Szechuan school, meditation on Buddha's name, close to Pure Land",600,Minor philosopher,
+249,241 Chieh-hsien,Ch'an Szechuan school,600,Minor philosopher,Ch'an (Zen)
+250,242 Chih-ta,Ch'an Northern school,600,Minor philosopher,Ch'an Northern School
+251,243 Hsiang-mo Tsang,same,600,Minor philosopher,Ch'an Northern School
+252,244 I-fu,same,600,Minor philosopher,Ch'an Northern School
+253,245 P'u-chi,same,600,Minor philosopher,Ch'an Northern School
+254,246 Ching-hsien,same,600,Minor philosopher,Ch'an Northern School
+255,247 Hsuan-tse,"Ch'an, Northern school",600,Minor philosopher,Ch'an Northern School
+256,248 Shen-Hsiang,propagated Hua-yen to Japan,700,Minor philosopher,
+257,249 Dharmagupta,fr. India; presided at Nalanda university,700,Non-philosopher,India
+258,250 Subhakarasinha,"fr. India; tantrist, Chang-an court",700,Minor philosopher,tantrist (esoteric/magic B)
+259,251 Vajrabodhi,st. Nalanda; at Chang-an; tantrist,700,Minor philosopher,tantrist (esoteric/magic B)
+260,252 Chih-yen,tantrist,700,Minor philosopher,tantrist (esoteric/magic B)
+261,253 I-hsing,"tantrist, math/astron; Hua-yen temple",700,Minor philosopher,mathematician
+262,254 Amoghavajra,"st. Ceylon; tutor of emperors; tantrist, rainmaker",700,Minor philosopher,tantrist (esoteric/magic B)
+263,255 Chih-yen,tantrist,700,Minor philosopher,tantrist (esoteric/magic B)
+264,256 Wen-Ku,same,700,Minor philosopher,tantrist (esoteric/magic B)
+265,257 Yen Chen-Ch'ing,mystic theses on logic of Kung-sun Lung,700,Minor philosopher,
+266,258 Chang Chih-Ho,Taoist,700,Minor philosopher,Taoist magician or church leader
+267,259? Kuan Yin,text by Taoist author +,700,Minor philosopher,
+268,260 Ssu-ma Ch'eng-Cheng,Taoist naturalist +,700,Minor philosopher,
+269,261 T'ien T'ung Hsu,same +,700,Minor philosopher,
+270,262 Li Ch'uan,same +,700,Minor philosopher,
+271,263 Hui-yuan,Hua-yen sectarian split,700,Minor philosopher,Hua-yen
+272,264 Ch'eng-kuan,Hua-yen; refuted 263,700,Minor philosopher,Hua-yen
+273,265 K'uei discussion group members,"reformers of politics, economic, lit.",700,Minor philosopher,
+274,266 Han Hui,brother of Han Yu,700,Minor philosopher,
+275,266a Han Chung-ch'ing,father of Han Ya,700,Minor philosopher,
+276,267 Chan-jan,revived T'ien-tai; universal salvation,700,Minor philosopher,T'ien-t'ai
+277,268 Tzu-min,"Pure Land, polemic vs. Hui Neng",700,Minor philosopher,Pure Land (B faith-salvation)
+278,269 Tao-sui,T'ien-T'ai,700,Minor philosopher,
+279,270 4 minor followers of Ch'an Northern school,,700,Minor philosopher,
+280,271 Fa-chao,Pure Land; National Preceptor; Heaven/Hell doctrine; attacked universal salvation,700,Minor philosopher,Pure Land (B faith-salvation)
+281,272 Nan-yiieh Huai-jang,Ch'an,700,Minor philosopher,Ch'an (Zen)
+282,274 Yueh-shan Wei Yen,Ch'an,700,Minor philosopher,
+283,275 T'ien-huang Tao-wu,Ch'an,700,Minor philosopher,Ch'an (Zen)
+284,276 Nan-chuan Po-yuan,Ch'an,700,Minor philosopher,Ch'an (Zen)
+285,277 Chao-chou,Ch'an,700,Minor philosopher,Ch'an (Zen)
+286,278 Yun-yen,Ch'an,700,Minor philosopher,
+287,278a Yang Liang,Confucian cm. on Hsiin Tzu,800,Minor philosopher,Confucian school
+288,278b Lii Yen,"Taoist reformer, spiritual alchemy, Buddhist-style meditation",800,Non-philosopher,Taoist magician or church leader
+289,279 Kuei-Shan Ling-yu,Ch'an; f. Kuei-Shan sect,800,Minor philosopher,Ch'an (Zen)
+290,280 Hsueh-feng,Ch'an,800,Minor philosopher,Ch'an (Zen)
+291,281 Ta-Yu,Ch'an,800,Minor philosopher,Ch'an (Zen)
+292,282 Mu-chou,Ch'an,800,Minor philosopher,Ch'an (Zen)
+293,283 Yang-shan Hui-chi,"Ch'an, f. Kuei-Yang sect: meditation on circular symbols",800,Minor philosopher,"Ch'an (Zen), Hua-yen"
+294,284 Hsiang-yen Chih-hsien,Ch'an,800,Minor philosopher,Ch'an (Zen)
+295,285 Shih-pei,Ch'an,800,Minor philosopher,Ch'an (Zen)
+296,286 Ts'ao Shan Pen-Chi,"f. Ch'an Ts'ao-Tung sect; incorp. Hua-yen, doctrine of ""5 Ranks""",800,Minor philosopher,"Ch'an Ts'ao-Tung sect, Hua-yen"
+297,287 Ts'ao-shan Hui-Hsia,,900,Minor philosopher,"Ch'an Ts'ao-Tung sect, Hua-yen"
+298,288 Chin-feng Ts'ung-chih,,900,Minor philosopher,"Ch'an Ts'ao-Tung sect, Hua-yen"
+299,289 Fa Yen,"Ch'an, f. Fa-yen sect; incl. Hua-yen",900,Minor philosopher,"Ch'an (Zen), Hua-yen"
+300,290 Nan-yiian Hui-yung,1st used koan,900,Minor philosopher,Ch'an Lin-chi sect
+301,291 Yung-ming,"sync. Ch'an & Pure Land, scriptures",900,Minor philosopher,Ch'an (Zen)/Pure Land/tantrist
+302,292 T'ien-tai Te-shao,sync. Ch'an & T'ien-t'ai,900,Minor philosopher,"Ch'an (Zen), tantrist"
+303,293 Fen-yang,,935,Minor philosopher,Ch'an Lin-chi sect/Ch'an Ts'ao-Tung sect
+304,294 Ta-yang,,935,Minor philosopher,Ch'an Ts'ao-Tung sect
+305,295 Chih-yuan,"Buddhist, Taoist/Confucian syncretism",935,Minor philosopher,"Buddhist, Taoist, Confucian, syncretist"
+306,296 Ch'ung Fan,Taoist numerologist,935,Minor philosopher,"Taoist, numerologist/diviner"
+307,297 T'an Ch'iao,Taoist naturalist +,935,Minor philosopher,
+308,298 Hsing Ping,Confucian +,935,Minor philosopher,
+309,299 Mu Hsin,Taoist numerologist,1000,Minor philosopher,"Taoist, numerologist/diviner"
+310,300 Li Chih-tsai,numerologist,1000,Minor philosopher,numerologist/diviner
+311,301 Li Kai,same,1000,Minor philosopher,numerologist/diviner
+312,302 Fan O-ch'ang,same,1000,Minor philosopher,numerologist/diviner
+313,303 Liu Mu,same,1000,Minor philosopher,numerologist/diviner
+314,304 Shou Yai,Buddhist,1000,Minor philosopher,Buddhist
+315,305 Hsueh-tou,koan compiler and poet,1000,Minor philosopher,Ch'an (Zen)
+316,306 Shih-shuang,,1000,Minor philosopher,Ch'an Lin-chi sect
+317,307 Yang-chi Fang-hui,f. Ch'an sect,1000,Minor philosopher,Ch'an Lin-chi sect
+318,308 Huang-lung Hui-nan,f. Ch'an sect,1000,Minor philosopher,Ch'an Lin-chi sect
+319,309 T'ou-tzu,"revived Ch'an Ts'ao-Tung [Soto] sect, Hua-yen",1000,Minor philosopher,"Ch'an Ts'ao-Tung sect/Ch'an Lin-chi sect, Hua-yen"
+320,310 Ch'i-Sung,"Buddhist monk, Taoist/Confucian syncretism",1000,Minor philosopher,"Buddhist, Taoist, Confucian, syncretist"
+321,311 Ch'eng Hsiang,father of Ch'eng brothers,1000,Minor philosopher,
+322,312 Ch'eng Pen,Taoist +,1000,Minor philosopher,
+323,313 Fan Chung-yen,"political reformer, orthodox Confucian",1000,Minor philosopher,Confucian politician
+324,314 Ouyang Hsiu,"politician, historian, poet",1000,Minor philosopher,"Confucian poet, politician"
+325,315 Sun Fu,Confucian,1000,Minor philosopher,Confucian school
+326,316 Mei Yao-Ch'en,poet,1000,Non-philosopher,
+327,317 Su Hsun,"poet, father of 319 and Su Shih; all in Szechuan faction, anti-reform and anti-Neo-Confucian",1000,Non-philosopher,Confucian poet
+328,318 Chang Po-tuan,"f. Taoist sect, spiritual alchemy +",1000,Minor philosopher,
+329,319 Su Ch'e,poet and politician; polit. tolerance,1000,Minor philosopher,"Confucian poet, politician"
+330,320 Shih Chieh,"poet, anti-Buddhist and anti-Taoist",1000,Minor philosopher,"Confucian vs. Buddhist, Taoist"
+331,321 Fan Tsu-yii,Confucian textual cm.,1000,Minor philosopher,Confucian school
+332,322 Lu Ta-lin,moved fr. Chang Tsai school to Ch'eng school after death of Chang Tsai,1000,Minor philosopher,
+333,323 Su Chi-ming,,1000,Minor philosopher,
+334,324 Hou Ch'ung-liang,,1000,Minor philosopher,
+335,325 Wang Fin,,1000,Minor philosopher,Neo-Confucian
+336,326 Liu Hsiian,,1000,Minor philosopher,Neo-Confucian
+337,327 Hsieh Liang-tso,disciple of Ch'eng brothers,1000,Minor philosopher,Neo-Confucian
+338,328 Yu Tso,same; anti-Shao school polemic,1000,Minor philosopher,Neo-Confucian
+339,329 Yin T'un,,1000,Minor philosopher,
+340,330 Ch'i Kuan,popularized Chou Tun-i diagram,1000,Minor philosopher,
+341,331 Shao Po-wen,"Shao school, rival of Ch'eng school",1100,Minor philosopher,
+342,332 Ch'ao Yiieh-chin,same,1100,Minor philosopher,
+343,333 Shao Po,same,1100,Minor philosopher,
+344,334 Chu Chen,"numerology, cm. Yi Ching; popularized Chou Tun-i diagram",1100,Minor philosopher,numerologist/diviner
+345,335 Tung-lin Ch'ang-tsung,Ch'an monk,1100,Minor philosopher,Ch'an (Zen)
+346,336 Lo Ts'ung-yen,,1100,Minor philosopher,
+347,337 Hu An-Kuo,"Hu school of Neo-Confucianism, rival to Chu Hsi",1100,Minor philosopher,
+348,338 Hu Hung,same; circulated Chou Tun-i's numerology,1100,Minor philosopher,Neo-Confucian
+349,339 Hu Yin,same,1100,Minor philosopher,Neo-Confucian
+350,340 Chang Shih,"same; 1st printed Ch'eng bros. mss, criticized by Chu Hsi",1100,Minor philosopher,Neo-Confucian
+351,341 Liu Kung,same,1100,Minor philosopher,Neo-Confucian
+352,342 Hu Chi-sui,,1100,Minor philosopher,Neo-Confucian
+353,343 Li Tung,,1100,Minor philosopher,Neo-Confucian
+354,344 Wu Yu,Confucian textual historian +,1100,Minor philosopher,
+355,345 Cheng Chia,same +,1100,Minor philosopher,
+356,346 Wang Che,f. Taoist Perfect Realization sect in north Khitan conquest state,1100,Minor philosopher,Taoist magician or church leader
+357,347 Hui-t'ang Tsu-hsin,Ch'an,1100,Minor philosopher,Ch'an Lin-chi sect
+358,348 Ling-yiian Wei-ch'ing,same,1100,Minor philosopher,Ch'an Lin-chi sect
+359,349 Wu-tsu Fa-yen,Ch'an Blue Cliff Record,1100,Minor philosopher,Ch'an Lin-chi sect
+360,350 K'ai-fu Tao-ning,Ch'an,1100,Minor philosopher,Ch'an Lin-chi sect
+361,351 Tan-hsia,,1100,Minor philosopher,Ch'an Ts'ao-Tung sect
+362,352 Hung-chih Cheng-chueh,"Silent Illumination Ch'an, Hua-yen, anti-koan meditation",1100,Minor philosopher,Ch'an Ts'ao-Tung sect
+363,353 K'ai-hsi Tao-ch'ien,Ch'an,1100,Minor philosopher,Ch'an Lin-chi sect
+364,354 Fo-chao Te-kuang,same,1100,Minor philosopher,Ch'an Lin-chi sect
+365,355 Wu-men Hui-k'ai,koan collection,1100,Minor philosopher,Ch'an Lin-chi sect
+366,356 T'ien-t'ung Ju-ching,"Buddhist, opposed Confucian/Taoist syncretism",1200,Minor philosopher,Ch'an Ts'ao-Tung sect
+367,357 Li Po-mien,,1200,Minor philosopher,
+368,358 Liu Tse-chih,,1200,Minor philosopher,Neo-Confucian
+369,359 Lin Ti,,1200,Minor philosopher,Neo-Confucian
+370,360 Ts'ai Chi-tung,,1200,Minor philosopher,Neo-Confucian
+371,361 Huang Hsiin,,1200,Minor philosopher,Neo-Confucian
+372,362 Ts'ai Ch'en,,1200,Minor philosopher,Neo-Confucian
+373,363 Chang Hsi,,1200,Minor philosopher,
+374,364 Ch'en Fu-liang,,1200,Minor philosopher,
+375,365 Ts'ao Shu-yuan,,1200,Minor philosopher,Neo-Confucian
+376,366 Ch'ang Ch'un,Taoist sect chief,1200,Minor philosopher,Taoist magician or church leader
+377,367 Li Chih-Ch'ang,Taoist sect chief,1200,Minor philosopher,Taoist magician or church leader
+378,368 Hsii Lu-Chai,,1200,Minor philosopher,Neo-Confucian
+379,369 Li Ching-te,,1200,Minor philosopher,Neo-Confucian
+380,370 Yeh Ts'ai,,1200,Minor philosopher,Neo-Confucian
+381,371 Wei Liao-Ong,,1200,Minor philosopher,
+382,372 Wu Lin Ch'uan +,,1200,Minor philosopher,
+383,372a Wu Ch'eng,compromise Lu Chiu-yiian & Chu Hsi phils +,1200,Minor philosopher,
+384,373 Liu Chi,"astron/astrol, skeptic anti-superstition +",1300,Minor philosopher,
+385,374 Hsieh Ying Fang,skeptic +,1300,Minor philosopher,
+386,374a Cheng Yii,same as 372a +,1300,Minor philosopher,
+387,375 Ts'ao Tuan,"skeptic, anti-Buddhist +",1400,Minor philosopher,
+388,376 Yang P'u +,,1400,Minor philosopher,
+389,377 Hsieh Hsuan,cm. Neo-Confucian texts +,1400,Minor philosopher,
+390,378 Wu Yu-pi,,1400,Minor philosopher,Neo-Confucian
+391,379 Hu Chii-jen,faithful Neo-Confucian,1400,Minor philosopher,Neo-Confucian
+392,380 Lou Liang,,1500,Minor philosopher,Neo-Confucian
+393,381 Chan Jo-shui,,1500,Minor philosopher,
+394,382 Hsu Ai,,1500,Minor philosopher,
+395,383 Huang Wan,,1500,Minor philosopher,
+396,384 Ku Yin-hsing,,1500,Minor philosopher,
+397,385 Ch'ien Te-hung,split in Wang Yang-Ming school,1500,Minor philosopher,
+398,386 Ch'en Ching-lan,"orthodox Neo-Confucian, Grit. Lu Chiu-yuan and Wang Yang-Ming as Ch'an Buddhism +",1500,Minor philosopher,
+399,CONFUCIUS,,-500,Major philosopher,
+400,Tseng Tzu,,-500,Secondary philosopher,
+401,MO TI,,-400,Major philosopher,
+402,Yang Chu,,-400,Secondary philosopher,
+403,Hsü Hsing,,-400,Secondary philosopher,agriculturalist primitivist
+404,india1 King Janaka,,-700,Minor philosopher,
+405,india2 King Ajatashatru,,-700,Minor philosopher,
+406,india3 King Pravehana Jaivali,defeated  Aruni in debate,-700,Minor philosopher,
+407,india4 King Ashvapati,debated Aruni &11-15,-700,Minor philosopher,
+408,india5 Sanatkumara +,,-700,Minor philosopher,
+409,india6 Shandilya +,,-700,Minor philosopher,
+410,india7 Raikva +,,-700,Minor philosopher,
+411,india8 Satyakama Jabali +,,-700,Minor philosopher,
+412,india9 Chakrayana Ushasti +,,-700,Minor philosopher,
+413,india10 Ghora Angirasa +,,-700,Minor philosopher,
+414,india11 Aupamanayava,,-700,Minor philosopher,
+415,india12 Prachinayogya,,-700,Minor philosopher,
+416,india13 Vaisyagrahpadya,,-700,Minor philosopher,
+417,india14 Sharkarakshya,,-700,Minor philosopher,
+418,india15 Budila,,-700,Minor philosopher,
+419,india16 Parshvanatha,"last of 24 Jaina predecessors, some mythical",-700,Minor philosopher,Jaina
+420,india17 Brihaspati,pre-Buddhist skeptic/Lokayata materialist?,-500,Minor philosopher,Lokayata (materialist)
+421,india18 Sanjaya,skeptic,-500,Minor philosopher,skeptic
+422,india19 Alara Kalama,meditation master,-500,Minor philosopher,
+423,india20 Uddaka Ramaputta,ascetic,-500,Minor philosopher,
+424,india21 King Bimbisara of Magadha,,-500,Minor philosopher,
+425,india22 Buddha's followers,debated Mahavira,-500,Minor philosopher,Buddhist
+426,india23 Mahavira's followers,debated Buddha,-500,Minor philosopher,Jaina
+427,india24 Purana Kashyapa,"or Kassapa; skeptic, denied karma and morality; converted by Buddha",-500,Minor philosopher,skeptic
+428,india25 Pakudha Kaccayana,or Kakuda Katyayana; 7 elements; denied karma,-500,Minor philosopher,skeptic
+429,india26 Ajita Keshakambala,4 elements; Lokayata materialist,-500,Minor philosopher,Lokayata (materialist)
+430,india27 Payasi,Lokayata materialist,-500,Minor philosopher,Lokayata (materialist)
+431,"india28 ""Kanada""",early Vaisheshika,-500,Minor philosopher,Vaisheshika
+432,india29 Sariputra,Buddha's major disciple,-500,Minor philosopher,Buddhist
+433,india30 Moggallana (Maudgalyayana),same,-500,Minor philosopher,Buddhist
+434,india31 Devadatta,early revolt within Buddhism,-500,Minor philosopher,Buddhist
+435,india32 Moggaliputta-tissa,organized Buddhist missions,-300,Minor philosopher,
+436,india33 Nagasena,Buddhist debater +,-300,Minor philosopher,
+437,india34 Katyayana,"Katyayaniputra, predecessor of Sarvastivada +",-300,Minor philosopher,
+438,india35 Dharmatrata,early devel. of Sarvastivada +,-300,Minor philosopher,
+439,india36 Nachikitas,in Katha Up.,-300,Minor philosopher,
+440,india37 Shvetashvatara,in Shvetashvatara Up.,-300,Minor philosopher,
+441,"india38 ""Kapila""",same,-300,Minor philosopher,
+442,"india39 ""Asuri""",converted from Lokayata and Ajivikas +,-300,Minor philosopher,
+443,india40 Varuna,in Taittiriya Up.,-300,Minor philosopher,
+444,india41 Mahachamasya,same,-300,Minor philosopher,
+445,india42 Pippalada,in Prashnopanishad,-300,Minor philosopher,
+446,india43 Pratardana,in Kaushitaki Up.,-300,Minor philosopher,
+447,india44 Mahadeva Buddhist,"f. Chaitiya sect, stupa worship +",-200,Minor philosopher,
+448,india45 Kumaralabdha,f. Sautrantika? +,-200,Minor philosopher,
+449,india46 Upatissa,Pali Theravada compendium +,1,Minor philosopher,
+450,"india47 ""Panchashikha""",early Samkhya figurehead? +,1,Minor philosopher,
+451,india48 Kumaralata,Sarvastivadin,100,Minor philosopher,Sarvastivadin
+452,india49 Matracheta,Buddhist court poet,100,Minor philosopher,"Buddhist, poet"
+453,india50 Buddhadeva,Sarvastivadin +,100,Minor philosopher,
+454,india51 Bhadanta Ghoshaka,Sarvastivadin +,100,Minor philosopher,
+455,"india5la ""Gautama""",Mithila? f. Nyaya +,100,Minor philosopher,
+456,india52 Upavarsha,"Vedanta/Mimamsa, 1st Brahmasutra cm. +",100,Minor philosopher,
+457,india53 Charaka,compiled medical text +,100,Minor philosopher,
+458,india54 Lakulisha?,f. Shaiva dualism +,100,Minor philosopher,
+459,india55 Dharmashri,Sarvastivadin +,200,Minor philosopher,
+460,india56 Upashanta,Sarvastivadin +,200,Minor philosopher,
+461,india57 Paurika?,earliest distinctive Samkhya +,200,Minor philosopher,
+462,india58 Panchadhikarana,same +,200,Minor philosopher,
+463,india59 Pantanjali,not Yogin; early Samkhya +,200,Minor philosopher,
+464,india60 Varshaganya?,crystallized Samkhya +,200,Minor philosopher,
+465,india61 Shabara?,"Mimamsa, cm. ""Jaimini"" +",200,Minor philosopher,
+466,india62 Harivarman,Sautrantika +,300,Minor philosopher,
+467,india63 Saramati,Yogacara +,300,Minor philosopher,
+468,india64 Sanghamitra,"Shri Lanka, crit. Theravada +",400,Minor philosopher,
+469,india65 Buddhadatta,Shri Lanka +,400,Minor philosopher,
+470,india66 Dhammapala,Shri Lanka +,400,Minor philosopher,
+471,india66a Shrilabdha,Sautrantika +,400,Minor philosopher,
+472,india67 Buddhamitra,Sautrantika,400,Minor philosopher,Sautrantika
+473,india68 Vindhyavasin,"revised older Samkhya, debated 67",400,Minor philosopher,Samkhya
+474,india69 Madhava,"Samkhya ""heretic,"" debated 73",400,Minor philosopher,Samkhya
+475,india70 Vasubandhu's pupil,brother-in-law of 71,400,Minor philosopher,
+476,india71 Vasurata,,400,Minor philosopher,
+477,india72 Chandramati,unorthodox Vaisheshika +,400,Minor philosopher,
+478,india73 Gunamati,"Sarvastivadin, crit. Samkhya, Vaisheshika, and Jainism",500,Minor philosopher,Sarvastivadin
+479,india74 Ashvabhava,,500,Minor philosopher,
+480,india74a Vasuvarman,Sarvastivadin +,500,Minor philosopher,
+481,india75 Guiiaprabha,"converted from Yogacara to Sarvastivada, attacked Mahayana +",500,Minor philosopher,
+482,india76 Arya-Vimuktasena,Yogacara +,500,Minor philosopher,
+483,india77 Bhadanta-Vimuktasena,Yogacara +,500,Minor philosopher,
+484,india78 Bhavivikta Nyaya,reputational rival of Dharmakirti +,500,Minor philosopher,
+485,india79 Shilabhadra,"Brahman, Nalanda head, Yogacara",600,Minor philosopher,Yogacara
+486,india80 Yashomitra,"Sarvastivadin, crit. Vasubandhu II as Sautrantika +",600,Minor philosopher,
+487,india81 Samathadeva,Sarvastivadin +,600,Minor philosopher,
+488,india82 Purnavardhana,Sarvastivadin +,600,Minor philosopher,
+489,india83 Jnanaprabha,Svatantrika +,600,Minor philosopher,Madhyamika
+490,india84 Gunabhadra?,Mahayana +,600,Minor philosopher,
+491,india85 Simhabhadra,Mahayana +,600,Minor philosopher,
+492,india86 Prajnagupta,Mahayana +,600,Minor philosopher,
+493,india87 Jnanachandra,at Nalanda +,600,Minor philosopher,
+494,india88 Ratnashimha,Mahayana +,600,Minor philosopher,
+495,india89 Divakaramitra,Mahayana +,600,Minor philosopher,
+496,india90 Tathagatagarbha,Mahayana +,600,Minor philosopher,
+497,india91 Nagabodhi,Vajrayana tantrist sutra +,600,Minor philosopher,
+498,india92 Jina,"Yogacara, logic +",600,Minor philosopher,
+499,india93 Jinendrabuddhi,Buddhist logic +,600,Minor philosopher,
+500,india94 Ishvarasena,,600,Minor philosopher,
+501,india95 Devendrabuddhi,Buddhist logic,600,Minor philosopher,logician
+502,india96 Yogasena,Sammitiya personalist school +,600,Minor philosopher,
+503,india97 Purandhara,last-known Lokayata materialist +,600,Minor philosopher,
+504,india98 Bhamana,grammarian crit. Buddhist logic,600,Minor philosopher,grammarian
+505,india99 Shankarasvamin,Nyaya cm. Dignaga logic +,600,Minor philosopher,
+506,india100 Pritichandra,"Nyaya ""rival to Dharmakirti"" +",600,Minor philosopher,
+507,india101 Aviddhakarna,Nyaya +,600,Minor philosopher,
+508,india102 Govinda,,600,Minor philosopher,
+509,"india103 ""Vyasa""?",1st great cm. Yogasutras +,600,Minor philosopher,
+510,india104 Bhartriprapancha,1st Bhedabhedavada dualism-cum-nondualism +,600,Minor philosopher,
+511,india105 Haribhadra,Yogacara/Madhyamika/ Svatantrika +,700,Minor philosopher,
+512,india106 Vajrabodhi,Vajrayana tantrism,700,Minor philosopher,Vajrayana
+513,india107 Amoghavajra,tantric/sexual rites; to China court,700,Minor philosopher,China
+514,india108 Dombi Heruka,sexual-Yogic tantrism +,700,Minor philosopher,
+515,india109 Anandagavajra? +,,700,Minor philosopher,
+516,india110 Jnanagarbha,Yogacara/Madhyamika & Vajrayana tantrism; to Tibet +,700,Minor philosopher,
+517,india111 Karnakagomin,"Madhyamika or Yogacara, Buddhist logic +",700,Minor philosopher,
+518,india112 Archata,"Madhyamika or Yogacara, Buddhist logic +",700,Minor philosopher,
+519,india113 Jinendrabuddhi,cm. Dignaga +,700,Minor philosopher,
+520,india114 Patrakesari,refuted Dharmakirti logic,700,Minor philosopher,logician
+521,india115 Shakyamati,Buddhist cm. Dharmakirti logic,700,Minor philosopher,logician
+522,india116 Vinitadeva,Buddhist logic cm. Dharmakirti,700,Minor philosopher,logician
+523,india117 Shakyabuddhi,Buddhist +,700,Minor philosopher,
+524,india118 Prabhabuddhi,Buddhist +,700,Minor philosopher,
+525,india119 Shubhakara,"Buddhist logic, tantrist anti-Idealist; to China",700,Minor philosopher,"logician, Vajrayana (tantric Buddhism), vs. Yogaca"
+526,india120 Akalanka,"major Jaina logic, crit. Dharmakirti",700,Minor philosopher,"Jaina, logician"
+527,india121 Mallavadin,"Jaina, cm. Buddhist logic +",700,Minor philosopher,
+528,india122 Haribhadra Suri?,"Jaina formulated ""6 darsbanas"" +",700,Minor philosopher,
+529,india123 Shalikanatha,Mimamsa crit. Dharmakirti logic,700,Minor philosopher,Mimamsa
+530,india124 Mahodadhi,Mimamsa,700,Minor philosopher,Mimamsa
+531,india125 Umveka,"Mimamsa, cm. Mandana",700,Minor philosopher,Mimamsa
+532,india126 Totaka,"grammarian, Mimamsa, converted to Advaita +",700,Minor philosopher,
+533,india127 Vasugupta,Kashmir Shaiva +,700,Minor philosopher,
+534,india128 King Indrabuddhi,Bengal tantrist +,800,Minor philosopher,
+535,india129 Lakshminkara Devi,sister of 128; sexual-Yoga +,800,Minor philosopher,
+536,india130 Pandita Ashoka,"Buddhist logic, Madhyamika or Yogacara +",800,Minor philosopher,
+537,india131 Durveka,Buddhist logic +,800,Minor philosopher,
+538,india132 Vidyananda?,Jaina logic +,800,Minor philosopher,
+539,india133 Yashovija,Jaina logic +,800,Minor philosopher,
+540,india134 Vishvarupa,Nyaya +,800,Minor philosopher,
+541,india135 Dhairyarashi,Nyaya +,800,Minor philosopher,
+542,india136 Chandrananda?,Vaisheshika +,800,Minor philosopher,
+543,india137 Bhasarvajna,Kashmir Nyaya,800,Minor philosopher,
+544,india138 Somadeva,1st systematized Kashmir Shaivism +,800,Minor philosopher,
+545,india139 Ugrajyoti,crit. monistic Shaivism +,800,Minor philosopher,
+546,india140 Sadyojyati,"dualistic Shaiva, Kashmir +",800,Minor philosopher,
+547,india141 Brihaspati,Kashmir Shaiva +,800,Minor philosopher,
+548,india142 Shankarananda,"Kashmir Brahman, Shaiva; cm. Buddhist logic +",800,Minor philosopher,
+549,india143 Bhatta Kallata,Kashmir Shaiva +,800,Minor philosopher,
+550,india144 Anandavardhana,"Kashmir Brahman; poetics, cm. Buddhist logic +",800,Minor philosopher,
+551,india145 Prajnakaragupta,"Buddhist logic, tantrist, layman, Vikramashila [Bengal] +",900,Minor philosopher,
+552,india146 Ravi Gupta,"Buddhist layman, tantrist, Bengal, to Kashmir +",900,Minor philosopher,
+553,india147 Jina II,"Buddhist logic, tantrist, layman; crit. 146 +",900,Minor philosopher,
+554,india148 Jnanashri,"Buddhist logic, tantrist, layman; Kashmir Brahman +",900,Minor philosopher,
+555,india149 Jitari,"Buddhist, crit. Vaisheshika, Mimamsa, Jainism; Bengal court +",900,Minor philosopher,
+556,india150 Chandragomin,"Buddhist logic, Bengal court +",900,Minor philosopher,
+557,india151 Prajiiakaramati,"Madhyamika, crit. Yogacara Idealism +",900,Minor philosopher,
+558,india152 Vidyakarashanti,Buddhist logic +,900,Minor philosopher,
+559,india153 Ratnavajra,Buddhist +,900,Minor philosopher,
+560,india154 Dharmadeva,"Buddhist, Nalanda; to China +",900,Minor philosopher,
+561,india155 Trilocana,Nyaya,900,Minor philosopher,Nyaya
+562,india156 Sanatani,"Nyaya, Bengal? +",900,Minor philosopher,
+563,india157 Vyomashiva,"Nyaya-Vaisheshika Shaiva, Kashmir? +",900,Minor philosopher,
+564,india158 Adhyayana,Nyaya +,900,Minor philosopher,
+565,india159 Vittoka,Nyaya +,900,Minor philosopher,
+566,india160 Narasimha,Nyaya +,900,Minor philosopher,
+567,india161 Lakshmanagupta,"Utpala's pupil, teacher of Abhinavagupta +",900,Minor philosopher,
+568,india162 Bhatriraja,"grammarian, Kashmir +",900,Minor philosopher,
+569,india163 Helaraja,same +,900,Minor philosopher,
+570,india164 Ramakantha,"Shaiva dualist, Kashmir +",900,Minor philosopher,
+571,india165 Devabala,Shaiva dualist +,900,Minor philosopher,
+572,india166 Jnanshrimitra,"Buddhist logic, tantrist, layman; last of Kashmir school, to Vikramashila Bengal]  +",1000,Minor philosopher,
+573,india167 Ratnakarashanti,classified all Buddhist sects into Vajrayana tantrism +,0,Minor philosopher,
+574,168 Ratnakirti,"Buddhist, embraced solipsism +",1000,Minor philosopher,
+575,india169 Abhayakara-gupta,abbot of Nalanda & Vikramashila; tantrist +,1000,Minor philosopher,
+576,india170 Sarahapada,"sexual-Yoga, poems +",1000,Minor philosopher,
+577,india171 Advayavajra,Buddhist tantrism to Tibet +,1000,Minor philosopher,
+578,india172 Devachandra,Mahamudra sect of Vajrayana tantrism +,1000,Minor philosopher,
+579,india173 Manorathanandin,Buddhist logic +,1000,Minor philosopher,
+580,india174 Mokshakaragupta,Buddhist logic +,1000,Minor philosopher,
+581,india175 Anuruddha,"Shri Lanka, Theravadin +",1000,Minor philosopher,
+582,india176 Sariputta?,Theravadin +,1000,Minor philosopher,
+583,india177 Prabhachandra,Jaina logic +,1000,Minor philosopher,
+584,india178 Anandabodha?,Advaita solipsism +,1000,Minor philosopher,
+585,india179 Kularka Pandita,Advaita mahavidya logic formalism +,1000,Minor philosopher,
+586,india180 Bhavadeva,"Mimamsa, Bengal? +",1000,Minor philosopher,
+587,india181 Shrivatsa,"Nyaya, Mithila?",1000,Minor philosopher,Nyaya
+588,india182 Aniruddha,Nyaya +,1000,Minor philosopher,Nyaya
+589,india183 Uttunga,Shaiva dualist +,1000,Minor philosopher,
+590,india184 King Bhoja,"cm. Yoga, Samkhya; polymath, Shaiva dualist +",1000,Minor philosopher,
+591,india185 Bhaskara?,"with 186, greatest names of Shaktism +",1000,Minor philosopher,
+592,india186 Lakshmidhara +,,1000,Minor philosopher,
+593,india187 Vidyakantha,son/pupil of 164 +,1000,Minor philosopher,
+594,india188 Narayana Kantha +,,1000,Minor philosopher,
+595,india189 Ramakantha II,refuted grammarians +,1000,Minor philosopher,
+596,india190 Yadavaprakasha,"Vaishnava, theistic dualism-cum-nondualism",1000,Minor philosopher,"Vaishnava (Vishnu worship), Bhedabhedavada"
+597,india191 brother-in-law of 192,,1000,Minor philosopher,
+598,india192 Ramanuja's father,,1000,Minor philosopher,
+599,india193 Hemachandra,"encyclopedic Jaina, poet, grammarian, logic +",1100,Minor philosopher,
+600,india193a Shri Harsha's father,,1100,Minor philosopher,
+601,india194 brother of 195,,1100,Minor philosopher,
+602,india195 Meghanadari,"Ramanuja sect; refuted objections vs. self-validity of intuition, crit. Nyaya",1100,Minor philosopher,"Vishistadvaita, qualified nondualism"
+603,india196 Aghorashiva,Shaiva dualist +,1100,Minor philosopher,
+604,india197 Basava,Vira Shiva sect/phallic symbols; dualism-cum-nondualism +,1100,Minor philosopher,
+605,india198 Revana,"Vira Shiva; crit. nihilistic monism, Jainism, Buddhism, & Lokayata +",1100,Minor philosopher,
+606,india199 Upamaya,"voluntaristic Shaiva monism, crit. nihilistic monism +",1100,Minor philosopher,
+607,india200 Someshvara,Mimamsa +,1100,Minor philosopher,
+608,india201 Aparakadeva,Nyaya +,1100,Minor philosopher,
+609,india202 Shrikantha,Nyaya +,1100,Minor philosopher,
+610,india203 Vadaraja,"Nyaya, Kashmir? +",1100,Minor philosopher,
+611,india204 Vallabha,"Nyaya-Vaisheshika, Mithila",1100,Minor philosopher,
+612,india205 Shivaditya,Nyaya-Vaisheshika; mahavidya syllogisms combo. w Advaita,1100,Minor philosopher,Nyaya/Advaita
+613,india206 Shri Rama Chandrabharati,only Buddhist bhakti poet; Shri Lanka +,1200,Minor philosopher,
+614,india207 Mallisena,Jaina logic +,1200,Minor philosopher,
+615,india208 Parthasarathi Mishra,Mimamsa crit. Dharmakirti logic +,1200,Minor philosopher,
+616,india209 Vadindra,"Nyaya, refuted over-elaborate mahavidya syllogisms",1200,Minor philosopher,Nyaya-Vaisheshika
+617,india210 Bhatta Raghava,Nyaya,1200,Minor philosopher,Nyaya-Vaisheshika
+618,india211 Divikara,Nyaya Mithila,1200,Minor philosopher,
+619,india212 Keshava Mishra,Nyaya-Vaisheshika Mithila,1200,Minor philosopher,
+620,india213 Vadi Vagishvara,Nyaya +,1200,Minor philosopher,
+621,india214 Narayana Sarvajna,Nyaya +,1200,Minor philosopher,
+622,india215 Anandahubhava,Nyaya +,1200,Minor philosopher,
+623,india216 Anandajiiana,"Advaita, crit. Vaisheshika atomism +",1200,Minor philosopher,
+624,india217 Vimuktatman,"Advaita, crit. Mandana, dualism-cum-nondualism & Bhartrihari +",1200,Minor philosopher,
+625,india218 Vatsya Varada,"Ramanuja theist, refuted Shriharsha world illusion +",1200,Minor philosopher,
+626,india219 Pillai Lokacharya,led faction in Vaishnava split +,1200,Minor philosopher,Ramanuja sect
+627,india220 Marua,Vira Shiva +,1200,Minor philosopher,
+628,india221 Ekorama,same +,1200,Minor philosopher,
+629,india222 Rajashekhara Suri,Jaina cm. 6 darshanas +,1300,Minor philosopher,
+630,india223 Vidya Tilaka,same +,1300,Minor philosopher,
+631,india224 Prabhakarapadya,Nyaya +,1300,Minor philosopher,
+632,india224a Varhamana,"neo-Nyaya, Gangesha's son",1300,Minor philosopher,
+633,india225 Abhayatilaka,"Nyaya, Mithila",1300,Minor philosopher,
+634,india226 Sondadopadhyaya,Nyaya,1300,Minor philosopher,
+635,india227 Manikantha Mishra Nyaya,,1300,Minor philosopher,
+636,india228 Shashadhara,Nyaya,1300,Minor philosopher,
+637,india229 Tarami Mishra,Nyaya +,1300,Minor philosopher,
+638,india230 Jagadguru,Nyaya +,1300,Minor philosopher,
+639,india231 Nyayabhaskarakara,Nyaya +,1300,Minor philosopher,
+640,india232 Ravishvara,Nyaya +,1300,Minor philosopher,
+641,india233 Ramadvaya,Advaita +,1300,Minor philosopher,
+642,india234 Anandatman,,1300,Minor philosopher,
+643,india235 Shankarananda,Upanishads cm.,1300,Minor philosopher,
+644,india236 Madhavacharya,"or Vidyaranya; Advaita, Mimamsa cm.; compendium of all schools",1300,Minor philosopher,Advaita syncretist
+645,india237 Sayana,"Mimamsa, cm. early Vedas; brother of 236",1300,Minor philosopher,Vedanta
+646,india238 Anubhavananda,,1300,Minor philosopher,
+647,india239 Amalananda,Advaita,1300,Minor philosopher,Advaita
+648,india240 brother of 241,,1300,Minor philosopher,
+649,india241 Shaila Shrinivasa,defended Ramanuja sect vs. Advaita crit,1300,Minor philosopher,Ramanuja sect
+650,india242 Shripati Pandita,Vira Shiva sectarian; crit. all schools +,1300,Minor philosopher,
+651,india243 Gunaratna Suri,"Jaina, cm. Haribhadra's 6 darshanas +",1400,Minor philosopher,
+652,india244 Aniruddha,compiled Samkhyasutras +,1400,Minor philosopher,
+653,india245 Sadananda Vyasa,"Advaita; cm. Samkhya, Gita +",1400,Minor philosopher,
+654,india246 Shankara Mishra,neo-Nyaya,1400,Minor philosopher,
+655,india246a Vacaspati Mishra II,neo-Nyaya,1400,Minor philosopher,
+656,india247 Vasudevasarvabhauma,intro. neo-Nyaya to Bengal,1400,Minor philosopher,
+657,india248 Madhava Mukunda,"Vishishtadvaita qualified non-dualism, crit. monism & world illusion +",1400,Minor philosopher,
+658,india249 Bhavaganesha,cm. Samkhya,1500,Minor philosopher,
+659,india250 Annambhatta,"Nyaya-Vaisheshika, cm. Advaita, Mimamsa",1500,Minor philosopher,
+660,india251 Narayana Bhatta,Mimamsa theist,1500,Minor philosopher,
+661,india252 Narayana Bhatta II,same; refuted Appaya Dikshita,1500,Minor philosopher,
+662,india253 Langakshi Bhaskara,same,1500,Minor philosopher,
+663,india254 Nrisimhashrama Muni,Advaita,1500,Minor philosopher,
+664,india255 Jiva Gosvami,Chaitanya follower,1500,Minor philosopher,
+665,x139,,-500,Minor philosopher,Confucian school
+666,i139,,-400,Minor philosopher,
+667,x144,,-400,Minor philosopher,
+668,MENCIUS,,-400,Major philosopher,
+669,Shen Tao,,-300,Secondary philosopher,
+670,HSÜN TZU,,-300,Major philosopher,
+671,Tien Pien,,-300,Secondary philosopher,
+672,Yin Wen,,-300,Secondary philosopher,
+673,KUNG-SUN LUNG,,-300,Major philosopher,
+674,Li Ssu,,-300,Secondary philosopher,
+675,Han Fei Tzu,,-300,Secondary philosopher,
+676,TSOU YEN,,-300,Major philosopher,
+677,HUI SHIH,,-400,Major philosopher,
+678,CHUANG TZU,,-400,Major philosopher,
+679,Kao Tzu,,-400,Secondary philosopher,
+680,Sung Keng,,-400,Secondary philosopher,
+681,x144-2,,-300,Minor philosopher,
+682,x145,,-235,Minor philosopher,
+683,TUNG CHUNG-SHU,,-200,Major philosopher,
+684,Liu An,,-200,Secondary philosopher,
+685,Ssu-ma T'an,,-100,Secondary philosopher,
+686,Liu Hsiang,,-100,Secondary philosopher,"alchemist, immortality-seeker"
+687,Liu Hsin,,1,Secondary philosopher,
+688,Yang Hsiung,,1,Secondary philosopher,Confucian school
+689,Huan T'an,,1,Secondary philosopher,"skeptic, anti-occult"
+690,Wang Ch'ung,,1,Secondary philosopher,"skeptic, anti-occult"
+691,Huai Nan Tzu Group,,-200,Secondary philosopher,anonymous text
+692,Cheng Hsüan,,100,Secondary philosopher,Confucian school
+693,Ho Yen,,200,Secondary philosopher,
+694,Ko Hung,,300,Secondary philosopher,
+695,WANG PI,,200,Major philosopher,
+696,Hsiang Hsu,,200,Secondary philosopher,
+697,Hsi K'ang,,200,Secondary philosopher,
+698,KUO HSIANG,,300,Major philosopher,
+699,i170,,200,Minor philosopher,
+700,138,,300,Minor philosopher,
+701,Yajñavalkya,,-800,Secondary philosopher,
+702,Aruni,,-800,Secondary philosopher,
+703,BUDDHA,,-600,Major philosopher,
+704,MAHAVIRA,,-600,Major philosopher,
+705,Makkhali Gosala,,-600,Secondary philosopher,
+1315,x124,,200,Minor philosopher,
+1316,x124-2,,300,Minor philosopher,Neoplatonic
+800,CHIH-I,,500,Secondary philosopher,T'ien-t'ai
+801,Silabhadra,,600,Secondary philosopher,India
+802,HUI-NENG,,600,Major philosopher,Ch'an (Zen)
+803,Hung-jen,,600,Secondary philosopher,Ch'an (Zen)
+804,Shên-hsiu,,600,Secondary philosopher,Ch'an Northern School
+805,Shen-Hui,,700,Secondary philosopher,Ch'an (Zen)
+806,Chi-tsang,,500,Secondary philosopher,Madhyamika
+807,FA-TSANG,,600,Major philosopher,Hua-yen
+808,Saicho,,800,Non-philosopher,Japan
+809,Kukai,,800,Non-philosopher,Japan
+810,Ceylon,,700,Non-philosopher,
+811,x62,,500,Minor philosopher,Taoist magician or church leader
+812,x62-2,,500,Minor philosopher,
+813,x62-3,,600,Minor philosopher,"Abhidharma, Yogacara"
+814,x62-4,,700,Minor philosopher,
+815,x62-5,,700,Minor philosopher,
+816,x62-6,,700,Minor philosopher,tantrist (esoteric/magic B)
+817,x62-7,,700,Minor philosopher,T'ien-t'ai
+818,i62,,700,Minor philosopher,Pure Land (B faith-salvation)
+819,i62-2,,700,Minor philosopher,
+820,Tsung-mi,,800,Secondary philosopher,"Hua-yen, Ch'an (Zen)"
+821,Ch'en Hsien-Chang,,1500,Secondary philosopher,
+822,WANG YANG-MING,,1500,Major philosopher,
+823,Wang Ken,,1500,Secondary philosopher,
+824,Lo Ch'in-shun,,1500,Secondary philosopher,Neo-Confucian
+825,Wang Chi,,1500,Secondary philosopher,Confucian/Ch'an
+826,Ma-tsu,,700,Secondary philosopher,"Hua-yen, Ch'an (Zen)"
+827,Huai-hai,,700,Secondary philosopher,"Hua-yen, Ch'an (Zen)"
+828,Shih-t'ou,,700,Secondary philosopher,"Hua-yen, Ch'an (Zen)"
+830,Tê-shan,,700,Secondary philosopher,Ch'an (Zen)
+831,Huang Po,,800,Secondary philosopher,Ch'an (Zen)
+832,LI PO,,700,Major philosopher,poet
+833,Han Yü,,800,Secondary philosopher,Confucian school
+834,Li Ao,,800,Secondary philosopher,Confucian school
+835,Tung-shan,,800,Secondary philosopher,Ch'an Ts'ao-Tung sect
+836,LIN-CHI,,800,Major non-philosopher,"Ch'an Lin-chi sect, Hua-yen"
+837,Yün Chü,,800,Secondary philosopher,Ch'an Ts'ao-Tung sect
+838,Yun-men,,900,Secondary philosopher,"Ch'an (Zen), Hua-yen"
+839,i63,,700,Minor philosopher,
+841,i63-3,,700,Minor philosopher,
+842,x63,,800,Minor philosopher,Ch'an (Zen)
+843,x63-2,,800,Minor philosopher,Buddhist
+844,i63-4,,900,Minor philosopher,
+845,i63-5,,935,Minor philosopher,Ch'an Ts'ao-Tung sect
+846,i63-6,,935,Minor philosopher,
+847,i63-7,,800,Minor philosopher,
+848,i63-8,,800,Minor philosopher,Ch'an Lin-chi sect
+849,i63-9,,935,Minor philosopher,Ch'an Lin-chi sect
+850,i63-10,,935,Minor philosopher,Ch'an Lin-chi sect
+851,i63-11,,700,Minor philosopher,
+852,275a,,700,Minor philosopher,Ch'an (Zen)
+853,Ch'en T'uan,,935,Secondary philosopher,"Taoist, numerologist/diviner"
+854,CHANG TSAI,,1000,Major philosopher,
+855,CHOU TUN-I,,1000,Major philosopher,
+856,SHAO YUNG,,1000,Major philosopher,
+857,CH'ENG-HAO / CH'ENG-I,,1000,Major philosopher,
+858,CHU HSI,,1100,Major philosopher,
+859,LU CHIU-YÜAN,,1100,Major philosopher,
+921,DIOGENES of Sinope,,-400,Major philosopher,
+922,ARISTOTLE,,-400,Major philosopher,
+923,THEOPHRASTUS,,-300,Major philosopher,
+924,ARCESILAUS,,-300,Major philosopher,"Academic, Skeptic"
+925,CHRYSIPPUS,,-300,Major philosopher,Stoic
+926,ZENO of Citium,,-300,Major philosopher,
+927,EPICURUS,,-300,Major philosopher,
+928,PYRRHO,,-400,Major philosopher,
+929,Eubulides,,-400,Secondary philosopher,medical
+930,Demosthenes,,-400,Non-philosopher,
+931,Menedemus of Eretria,,-400,Secondary philosopher,
+932,Timon,,-300,Secondary philosopher,
+933,Stilpo,,-400,Secondary philosopher,Megarian
+934,Diodorus Cronus,,-400,Secondary philosopher,Megarian
+935,Theodorus,,-400,Secondary philosopher,Cyrenaic
+936,Hegesius,,-400,Secondary philosopher,Cyrenaic
+937,Crates,,-400,Secondary philosopher,Cynic
+938,Speusippus,,-400,Secondary philosopher,Academic
+939,Xenocrates,,-400,Secondary philosopher,Academic
+940,Polemon,,-400,Secondary philosopher,Academic
+941,Alexander the Great,,-300,Non-philosopher,
+943,Heraclides Ponticus,,-400,Secondary philosopher,"Academic, mathematician, rhetorician"
+944,Strato,,-300,Secondary philosopher,Aristotelean
+945,Ariston of Chios,,-300,Secondary philosopher,Stoic
+946,Cleanthes,,-300,Secondary philosopher,Stoic
+947,x96,,-400,Non-philosopher,
+948,CARNEADES,,-200,Major philosopher,
+949,PANAETIUS,,-200,Major philosopher,Stoic
+950,POSIDONIUS,,-100,Major philosopher,
+951,Scipio,,-200,Non-philosopher,
+952,Pompey,,-100,Non-philosopher,
+953,Philodemus,,-100,Secondary philosopher,Epicurean
+954,Virgil,,-100,Non-philosopher,
+955,Lucretius,,-100,Secondary philosopher,Epicurean
+956,J. Caesar,,-100,Non-philosopher,
+957,Cleopatra,,-100,Non-philosopher,
+958,Cicero,,-100,Secondary philosopher,eclectic/Skeptic
+959,Augustus Caesar,,1,Non-philosopher,
+960,Philo of Larissa,,-100,Secondary philosopher,Academic
+961,Antiochus of Ascalon,,-100,Secondary philosopher,Academic
+962,Aenesidemus,,-100,Secondary philosopher,skeptic
+963,PHILO OF ALEXANDRIA,,1,Major philosopher,
+964,Nero,,1,Non-philosopher,
+965,Seneca,,1,Secondary philosopher,Stoic/eclectic
+966,Epictetus,,1,Secondary philosopher,Stoic/eclectic
+967,Moderatus of Gades,,1,Secondary philosopher,Pythagorean/Platonic
+968,Plutarch of Chareonea,,100,Secondary philosopher,
+969,Taurus,,100,Secondary philosopher,Platonic/Aristotelean
+970,Numenius of Apamea,,100,Secondary philosopher,Platonic
+971,Herodes Atticus,,100,Secondary philosopher,Platonic/rhetorician
+972,Valentinus,,100,Secondary philosopher,Gnostic
+973,Justin,,100,Secondary philosopher,Christian/Platonic
+974,Clement of Alexandria,,200,Secondary philosopher,Christian/Platonic/eclectic
+975,Marcus Aureluis,,100,Secondary philosopher,Stoic/eclectic
+976,Galen,,100,Secondary philosopher,medical/Aristotelean/eclectic
+977,Apuleius,,100,Secondary philosopher,rhetorician/Platonic/eclectic
+709,King Kanisha,,100,Non-philosopher,
+710,Ashvagosha,,100,Secondary philosopher,
+711,NAGARJUNA,,100,Major philosopher,Madhyamika
+712,Aryadeva,,200,Minor philosopher,
+713,Maitreyanatha,,300,Secondary philosopher,Yogacara
+714,ASANGA,,300,Major philosopher,Yogacara
+715,VASUBANDHU I,,400,Major philosopher,Yogacara
+717,VASUBANDHU II,,400,Major philosopher,Sarvastivadin/Sautrantika
+718,Sanghabhadra,,400,Secondary philosopher,Sarvastivadin
+719,VATSYAYANA,,400,Major philosopher,Nyaya
+720,Uddyotakara,,500,Secondary philosopher,Nyaya
+721,BHARTRIHARI,,500,Major philosopher,grammarian
+722,DIGNAGA,,500,Major philosopher,India
+723,Sthiramati,,500,Secondary philosopher,"Sarvastivadin, Yogacara"
+724,Buddhapalita,,500,Secondary philosopher,Madhyamika
+725,Bhavaviveka,,500,Secondary philosopher,Madhyamika
+726,Dharmapala,,600,Secondary philosopher,Yogacara/Sarvastivadin
+727,DHARMAKIRTI,,600,Major philosopher,India
+728,KUMARILA,,600,Major philosopher,
+729,PRABHAKARA,,700,Major philosopher,Mimamsa
+730,MANDANA,,700,Major philosopher,
+731,MISHRA,,700,Major philosopher,"Mimamsa, Advaita"
+732,SHANKARA,,700,Major philosopher,Advaita
+733,Bhaskara,,700,Secondary philosopher,Bhedabhedavada
+734,Sureshvara,,700,Secondary philosopher,Advaita
+735,Padmapada,,700,Secondary philosopher,"Advaita, Samkhya"
+736,Gaudapada,,500,Secondary philosopher,"Mahayana, Samkhya, Advaita"
+737,Dharmottara,,800,Secondary philosopher,"Kashmir, logician"
+738,Kamalashila,,700,Secondary philosopher,
+739,Shantarakshita,,700,Secondary philosopher,Madhyamika/Yogacara
+740,Shang Yang,,-400,Secondary philosopher,politician
+741,Shen Pu-hai,,-400,Secondary philosopher,politician
+742,x146,,-400,Minor philosopher,
+743,x147,,-400,Minor philosopher,
+744,x148,,-300,Minor philosopher,
+745,ISHVARAKRISHNA,,400,Major philosopher,Samkhya
+746,Prashastapada,,500,Secondary philosopher,Vaisheshika
+747,Vasumitra,,500,Secondary philosopher,Sarvastivadin
+748,Paramartha,,500,Non-philosopher,"China, Yogacara"
+749,Siddhasena,,600,Secondary philosopher,"Jaina, logician"
+750,Samantabhadra,,600,Secondary philosopher,
+751,Jayarasi,,600,Secondary philosopher,Lokayata (materialist)
+752,Chandrakirti,,600,Secondary philosopher,Madhyamika
+753,HSÜAN-TSANG,,600,Major non-philosopher,"Abhidharma, Yogacara"
+754,Shantideva,,700,Secondary philosopher,Madhyamika/Yogacara
+755,Padma Sambhava,,800,Non-philosopher,"Vajrayana, Tibet"
+756,Jayanta,,800,Secondary philosopher,Nyaya-Vaisheshika Kashmir
+757,VACASPATI MISHRA,,900,Major philosopher,"Nyaya, Samkhya, Yoga, Advaita Mithila"
+758,Shridhara,,900,Secondary philosopher,"Nyaya-Vaisheshika, Mimamsa, Vedanta"
+759,x258,,900,Minor philosopher,Buddhist logician
+760,Sarvajñatman,,1000,Secondary philosopher,Advaita
+761,Yamuna,,1000,Secondary philosopher,"Vaishnava (Vishnu worship), Vishishtadvaita"
+762,RAMANUJA,,1000,Minor philosopher,"Vishistadvaita, qualified nondualism"
+763,Nimbarka,,1100,Secondary philosopher,"Vaishnava (Vishnu worship), Vishishtadvaita"
+765,SHRI HARSHA,,1100,Major philosopher,Advaita
+766,CHITSUKHA,,1200,Major philosopher,Advaita
+767,MADHVA,,1200,Major philosopher,"Vaishnava (Vishnu worship), dualist Vedantin"
+768,Atreya Ramanuja,,1200,Secondary philosopher,Ramanuja sect
+769,Prakashatman,,1200,Secondary philosopher,Advaita
+770,Vedanta Deshika,,1300,Secondary philosopher,
+771,GANGESHA,,1300,Major philosopher,
+772,Jayatirtha,,1300,Secondary philosopher,"Madhava sect, dualist Vedantin"
+773,Raghunatha Shiromani,,1500,Secondary philosopher,Neo-Nyaya
+774,x258-2,,1000,Minor philosopher,Advaita
+775,x258-3,,1200,Minor philosopher,
+776,x258-4,,1300,Minor philosopher,
+777,x258-5,,1100,Minor philosopher,Nyaya
+778,x258-6,,1100,Minor philosopher,Advaita
+779,x258-7,,1200,Minor philosopher,Advaita
+780,UDAYANA,,1100,Major philosopher,Nyaya-Vaisheshika
+781,Ko Hung,,300,Secondary philosopher,
+782,Chih-Tun,,300,Secondary philosopher,Buddhist (Taoist syncretist)
+783,Fo-t'u-teng,,300,Secondary philosopher,"Buddhist, Pure Land (B faith-salvation)"
+784,Tao-An,,300,Secondary philosopher,Pure Land (B faith-salvation)
+785,Hui Yuan,,300,Secondary philosopher,Pure Land (B faith-salvation)
+786,Tao Sheng,,400,Secondary philosopher,
+787,SENG-CHAO,,400,Major philosopher,Madhyamika
+788,Kumarajiva,,300,Secondary philosopher,"translator. Madhyamika, Sautrantika school"
+789,Buddhasena,,300,Non-philosopher,Kashmir
+790,i284,,400,Minor philosopher,Taoist magician or church leader
+791,x284,,400,Minor philosopher,Buddhist
+792,x284-2,,400,Minor philosopher,Sautrantika
+793,x284-3,,300,Minor philosopher,Taoist magician or church leader
+794,x284-4,,300,Minor philosopher,Confucian school
+795,VASUBANDHU,,500,Non-philosopher,India
+796,Bodhidharma,,500,Secondary philosopher,possibly mythical person
+797,Sthiramati,,500,Secondary philosopher,India
+798,Hui-K'o,,500,Secondary philosopher,Ch'an (Zen)
+799,Hui-Ssu,,500,Secondary philosopher,T'ien-t'ai
+860,DOGEN,,1200,Major non-philosopher,Japan
+861,Yang-Shih,,1100,Secondary philosopher,
+862,Ch'en Liang,,1100,Secondary philosopher,
+863,Ch'en Ch'un,,1200,Secondary philosopher,Neo-Confucian
+864,Yang Chien,,1200,Secondary philosopher,
+865,Lu Po-Kung,,1100,Secondary philosopher,
+866,Ta-hui,,1100,Secondary philosopher,"Ch'an Lin-chi sect, Hua-yen"
+867,Yuan-Wu,,1100,Secondary philosopher,Ch'an Lin-chi sect
+868,Ssu-ma Kuang,,1000,Secondary philosopher,
+869,Hü Yuan,,1000,Secondary philosopher,
+870,Su Shih,,1100,Non-philosopher,"Confucian poet, politician"
+871,Wang An-Shih,,1100,Non-philosopher,"politician, poet"
+872,i64,,935,Minor philosopher,
+873,i64-2,,935,Minor philosopher,
+874,i64-3,,1000,Minor philosopher,
+875,i64-4,,1000,Minor philosopher,Ch'an Lin-chi sect
+876,x64,,1000,Minor philosopher,"Buddhist, Taoist magician or church leader"
+877,i64-5,,1000,Minor philosopher,
+878,i64-6,,1100,Minor philosopher,
+879,x65,,1000,Minor philosopher,"Buddhist, Taoist magician or church leader"
+880,x66,,1100,Minor philosopher,"Buddhist, Taoist magician or church leader"
+881,i64-7,,1100,Minor philosopher,
+882,i64-8,,1100,Minor philosopher,
+883,i64-9,,1100,Minor philosopher,
+884,i64-10,,1100,Minor philosopher,
+885,Solon,,-600,Non-philosopher,
+886,Thales,,-600,Secondary philosopher,
+887,ANAXIMANDER,,-600,Major philosopher,
+888,Pherecydes,,-600,Secondary philosopher,
+889,PYTHAGORAS,,-600,Major philosopher,
+890,Anaximenes,,-600,Secondary philosopher,
+891,Xenophanes,,-600,Secondary philosopher,
+892,HERACLITUS,,-500,Major philosopher,
+893,PARMENIDES,,-500,Major philosopher,
+894,Alcmeon,,-500,Secondary philosopher,"Pythagorean, medical theorist"
+895,EMPEDOCLES,,-500,Major philosopher,
+896,PROTAGORAS,,-500,Major philosopher,
+897,ANAXAGORAS,,-500,Major philosopher,
+898,DEMOCRITUS,,-500,Major philosopher,
+899,SOCRATES,,-400,Major philosopher,
+900,PLATO,,-400,Major philosopher,
+901,Zeno of Elea,,-500,Secondary philosopher,
+902,Pericles,,-500,Non-philosopher,
+903,Leucippus,,-500,Secondary philosopher,
+904,Hippias of Elis,,-500,Secondary philosopher,
+905,Prodicus,,-500,Secondary philosopher,
+906,Archelaus,,-500,Secondary philosopher,
+907,Diogenes of Apollonia,,-500,Secondary philosopher,
+908,Antiphon,,-400,Secondary philosopher,
+909,Euclides of Megara,,-400,Secondary philosopher,
+910,Phaedo,,-400,Secondary philosopher,
+911,Aristippus,,-400,Secondary philosopher,
+912,Antisthenes,,-400,Secondary philosopher,
+913,Archytas,,-400,Secondary philosopher,Pythagorean
+914,Eudoxus,,-400,Secondary philosopher,"Academic, mathematician"
+915,Isocrates,,-400,Secondary philosopher,rhetorician
+916,Hippocrates of Cos,,-400,Secondary philosopher,
+917,Philolaus,,-500,Secondary philosopher,Pythagorean
+918,Gorgias,,-500,Secondary philosopher,
+919,x88,,-500,Minor philosopher,
+920,x88-2,,-500,Minor philosopher,
+978,Albinus,,100,Secondary philosopher,Platonic/eclectic
+979,Alexander of Aphrodisias,,100,Secondary philosopher,Aristotelean/mathematician
+980,Sextus Empiricus,,200,Secondary philosopher,Skeptic/medical
+981,x36,,1,Minor philosopher,Stoic
+982,x36-2,,1,Minor philosopher,Stoic
+983,x36-3,,100,Minor philosopher,
+984,Origen,,200,Secondary philosopher,
+985,PLOTINUS,,200,Major philosopher,
+986,PORPHYRY,,200,Major philosopher,
+987,IAMBLICHUS,,300,Major philosopher,
+988,AUGUSTINE,,400,Major philosopher,
+989,Pelagius,,400,Non-philosopher,heresy
+990,St. Jerome,,400,Non-philosopher,
+991,St. Gregory Nazianzen,,300,Secondary philosopher,
+992,St. Gregory of Nyssa,,400,Secondary philosopher,
+993,St. Ambrose,,300,Non-philosopher,
+994,Emp. Julian,,300,Non-philosopher,
+995,Arius,,300,Secondary philosopher,Christian
+996,Marius Victorinus,,300,Secondary philosopher,Neoplatonic/rhetorician/Christian
+997,x124,,200,Minor philosopher,
+998,PROCLUS,,400,Major philosopher,Neoplatonic/occultist/mathemetician
+999,Boethius,,500,Secondary philosopher,Platonic/Aristotelean
+1000,John Philoponus,,500,Secondary philosopher,Christian/Stoic
+1001,Pope Gregory the Great,,500,Non-philosopher,
+1002,GR1 Alcman,cosmological poet,-600,Minor philosopher,
+1003,GR2 Pittacus,"one of the ""Seven"" or ""Ten Sages""",-600,Non-philosopher,
+1004,GR3 Cleobulus,same,-600,Non-philosopher,
+1005,GR4 Periander,same,-600,Non-philosopher,
+1006,GR5 Mysonsame,,-600,Non-philosopher,
+1007,GR6 Epimenides,same,-600,Non-philosopher,
+1008,GR7 Anacharsis,same,-600,Non-philosopher,
+1009,GR8 Biassame,,-600,Non-philosopher,
+1010,GR9 Chilonsame,,-600,Non-philosopher,
+1011,GR10 Democedes of Croton,medicine,-600,Minor philosopher,medical
+1012,GR11 Ameinas,Pythagorean,-600,Minor philosopher,Pythagorean
+1013,GR12 Epicharmas,,-500,Minor philosopher,
+1014,GR13 Hippasus,Pythagorean,-500,Minor philosopher,Pythagorean
+1015,GR14 Hecataeus,geographer,-500,Non-philosopher,
+1016,GR15 Corax,orator,-465,Minor philosopher,rhetorician
+1017,GR16 Tisias,same,-465,Minor philosopher,rhetorician
+1018,GR17 Oenopides of Chios,"math, cosmol",-465,Minor philosopher,mathematician
+1019,GR18 Cleidemos,cosmol,-465,Minor philosopher,
+1020,GR19 Heraclides,"medicine, father of Hippocrates",-465,Minor philosopher,medical
+1021,GR20 Herodias,"medicine, Cnidus",-465,Minor philosopher,medical
+1022,GR21 Aegisidemus,,-465,Minor philosopher,
+1023,GR22 Hippon,eclectic,-465,Minor philosopher,Pythagorean
+1024,GR23 Hicetas,"Pythagorean, astron",-465,Minor philosopher,Pythagorean
+1025,GR24 Ecphantus,Pythagorean,-465,Minor philosopher,Pythagorean
+1026,GR25 Eurytas,Pythagorean,-465,Minor philosopher,Pythagorean
+1027,GR26 Echecrates,Pythagorean,-465,Minor philosopher,Pythagorean
+1028,GR27 Simmias,Pythagorean,-465,Minor philosopher,Pythagorean
+1029,GR28 Cebes,Pythagorean,-465,Minor philosopher,Pythagorean
+1030,GR29 Alcidamas,Sophist,-465,Minor philosopher,
+1031,GR30 Lycophron,Sophist,-465,Minor philosopher,
+1032,GR32 Idaeus of Himera,eclectic physicist,-465,Minor philosopher,
+1033,GR33 Thrasymachus,,-465,Minor philosopher,
+1034,GR34 Xeniades,Sophist,-465,Minor philosopher,
+1035,GR35 Theodorus,math,-465,Minor philosopher,mathematician
+1036,GR36 Critics,patron of Sophists,-465,Minor philosopher,
+1037,GR37 Diagoras of Melos,atheist,-400,Minor philosopher,
+1038,GR38 Cratylus,,-400,Minor philosopher,
+1039,GR39 Nessos of Chios,atomist,-400,Minor philosopher,
+1040,GR40 Metrodorus of Chios,"atomist, Skeptic",-400,Minor philosopher,
+1041,GR41 Theaetetus,"Academic, math",-400,Minor philosopher,
+1042,GR42 Menaechmus,"Academic, math",-400,Minor philosopher,Academic
+1043,GR43 Philip of Opus,Academic,-400,Minor philosopher,Academic
+1044,GR44 Hemodorus,Academic,-400,Minor philosopher,Academic
+1045,GR45 Histaeus,Academic,-400,Minor philosopher,Academic
+1046,GR46 Theudus,Academic,-400,Minor philosopher,Academic
+1047,GR47 Aethiops of Ptolemas,Cyrenaic +,-365,Minor philosopher,
+1048,GR48 Antipater of Cyrene,Cyrenaic,-365,Minor philosopher,Cyrenaic
+1049,GR49 Arete,"Cyrenaic, daughter of Aristippus",-365,Minor philosopher,Cyrenaic
+1050,GR50 Epitimides of Cyrene,Cyrenaic,-365,Minor philosopher,Cyrenaic
+1051,GR51 Parabates of Cyrene,Cyrenaic,-365,Minor philosopher,Cyrenaic
+1052,GR52 Aristippus the younger,"Cyrenaic systematizer, son of 49",-365,Minor philosopher,Cyrenaic
+1053,GR53 Anchipylus,Elis/Eretria school,-365,Minor philosopher,school of Elis
+1054,GR54 Moschus,same,-365,Minor philosopher,school of Elis
+1055,GR55 Plistenos of Elis,same,-365,Minor philosopher,school of Elis
+1056,GR56 Diogenes of Smyrna +,,-365,Minor philosopher,
+1057,GR57 Anaxarchus of Abdera,"atomist, Skeptic",-365,Minor philosopher,atomist
+1058,GR58 Nausiphanes,atomist,-365,Minor philosopher,atomist
+1059,GR59 Apollonus,Megarian,-365,Minor philosopher,Megarian
+1060,GR60 Apollonus Cronos,Megarian,-365,Minor philosopher,Megarian
+1061,GR61 Anneceris,Cyrenaic,-365,Minor philosopher,Cyrenaic
+1062,GR62 Alexines,Megarian,-365,Minor philosopher,Megarian
+1063,GR63 Philiscus,Cynic,-365,Minor philosopher,
+1064,GR64 Onesicritus,Cynic,-365,Minor philosopher,
+1065,GR65 Asclepediades,Elis/Eretria school,-365,Minor philosopher,school of Elis
+1066,GR66 Bryson,"Megarian, math",-365,Minor philosopher,Megarian
+1067,GR67 Polyxenus,Megarian,-365,Minor philosopher,Megarian
+1068,GR68 Pamphilus,Academic,-365,Minor philosopher,Academic
+1069,GR69 Spintharus,,-365,Minor philosopher,
+1070,GR70 Nicharchus,medicine +,-365,Minor philosopher,
+1071,GR71 Praxagoras,"medicine, Cos +",-365,Minor philosopher,
+1072,GR72 Aristoxenus,Aristotelean,-365,Minor philosopher,Aristotelean
+1073,GR73 Eudemus,same,-365,Minor philosopher,Aristotelean
+1074,GR74 Dicaerchus,same,-365,Minor philosopher,Aristotelean
+1075,GR75 Metrodorus of Athens,medicine +,-365,Minor philosopher,
+1076,GR76 Diodes,medicine +,-365,Minor philosopher,
+1077,GR77 Clearchus,"Aristotelean, occultist",-365,Minor philosopher,"Aristotelean, occultist"
+1078,GR78 Polemarchus,math,-365,Minor philosopher,mathematician
+1079,GR79 Callipus,math,-365,Minor philosopher,mathematician
+1080,GR80 Autolycus of Pitane,math,-365,Minor philosopher,mathematician
+1081,GR81 Metrocles,Cynic,-365,Minor philosopher,
+1082,GR82 Hipparchus,"Cynic, wife of Crates",-365,Minor philosopher,Cynic
+1083,GR83 Monimus,Cynic,-365,Minor philosopher,Cynic
+1084,GR84 5 minor followers of Aristotle,,-365,Minor philosopher,Aristotelean
+1085,GR85 14 minor followers of Theophrastus,,-300,Minor philosopher,Aristotelean
+1086,GR86 Demetrius of Phalerum,politician,-300,Non-philosopher,
+1087,GR87 Grantor,Academic,-300,Minor philosopher,Aristotelean
+1088,GR88 Crates,Academic scholarch,-300,Minor philosopher,Aristotelean
+1089,GR89 Bion,Cynic,-300,Minor philosopher,Cynic
+1090,GR90 Evemerus of Messina,,-300,Minor philosopher,
+1091,GR91 Philo of Megara,,-300,Minor philosopher,Megarian
+1092,GR92 Dionysius the Renegade,heterodox Stoic,-300,Minor philosopher,Stoic
+1093,GR93 Herillus,heterodox Stoic,-300,Minor philosopher,Stoic
+1094,GR94 Apollophanes,Stoic +,-300,Minor philosopher,
+1095,GR96 Aratus of Soli,"Stoic, astron poet",-300,Minor philosopher,mathematician
+1096,GR97 Lacydes,Academic,-300,Minor philosopher,
+1097,GR98 Ctesibus,mechanics,-300,Non-philosopher,
+1098,GR99 Aristarchus of Samos,"math, astron",-300,Non-philosopher,mathematician
+1099,GR100 Hieronymus of Rhodes,Aristotelean,-300,Minor philosopher,Aristotelean
+1100,GR101 Lyco,same,-300,Minor philosopher,Aristotelean
+1101,GR102 Ariston,same,-300,Minor philosopher,Aristotelean
+1102,GR103 Eratosthenes,"math, literary criticism",-300,Non-philosopher,
+1103,GR104 Phylotimus,"medicine, Cos +",-300,Minor philosopher,
+1104,GR105 Plistonicus,same +,-300,Minor philosopher,
+1105,GR106 Xenophon,same +,-300,Minor philosopher,
+1106,GR107 Herophilus,"medicine, Alexandria +",-300,Minor philosopher,
+1107,GR108 Erasistratus,"medicine, f. school Cos, Alexandria Museum +",-300,Minor philosopher,
+1108,GR109? Menippus of Gadara,Cynic,-300,Minor philosopher,
+1109,GR110 Sphaerus,Stoic,-300,Minor philosopher,Stoic
+1110,GR111 Polyaenus of Cyzicus,"Epicurean, from school of Eudoxus",-300,Minor philosopher,Epicurean
+1111,GR112 Zopyrus,"medicine, Alexandria",-300,Minor philosopher,medical
+1112,GR113 Metrodorus of Lampsacus,Epicurean,-300,Minor philosopher,Epicurean
+1113,GR114 Hermachus of Mytilene,Epicurean first successor,-300,Minor philosopher,Epicurean
+1114,GR115 Leonteus of Lampsacus,Epicurean financial patron +,-300,Minor philosopher,
+1115,GR116 Idomeneus,same +,-300,Minor philosopher,
+1116,GR117 Timocrates,"Epicurean renegade, brother of Metrodorus",-300,Minor philosopher,
+1117,GR118 Leontion,"Epicurean, Athens hetaera +",-300,Minor philosopher,
+1118,GR119 Colotes,Epicurean,-300,Minor philosopher,Epicurean
+1119,GR120 Menedemus,Cynic,-300,Minor philosopher,Cynic
+1120,GR121 Cercidas,Cynic,-300,Minor philosopher,
+1121,GR122 Teles of Megara,Cynic,-300,Minor philosopher,Cynic
+1122,GR123 Polystratus,Epicurean scholarch,-300,Minor philosopher,Epicurean
+1123,GR124 Hippoclydes,Epicurean,-300,Minor philosopher,Epicurean
+1124,GR125 Dionysius,Epicurean scholarch,-300,Minor philosopher,Epicurean
+1125,GR128 Hegesius,Academic,-300,Minor philosopher,Academic
+1126,GR126 Basilides,Epicurean scholarch,-200,Minor philosopher,Epicurean
+1127,GR127 Zeno of Tarsus,Stoic,-200,Minor philosopher,Stoic
+1128,GR129 Critolaus,"Aristotelean materialist, neo-Pythagorean",-200,Minor philosopher,Aristotelean
+1129,GR130 Diogenes of Babylon,Stoic scholarch,-200,Minor philosopher,Stoic
+1130,GR131? 3 Stoics after Chrysippus,"Eudromus, Crinus, Basilides",-200,Non-philosopher,Stoic
+1131,GR132? 5 Aristoteleans,"Sotion, Satyrus, Antisthenes of Rhodes, Heraclides Lembus, Agatharchides",-200,Non-philosopher,Aristotelean
+1132,GR133? Cratippus,"Aristotelean, changed from Academic +",-200,Minor philosopher,Aristotelean
+1133,GR134 Diodorus of Tyre,"Aristotelean, eclectic materialist, Epicurean",-200,Minor philosopher,Aristotelean/Epicurian
+1134,"GR135? Callipho, Dinomachus",Aristotelean/Epicurean syncretism,-200,Non-philosopher,Aristotelean/Epicurian
+1135,GR136 Phormio,Aristotelean,-200,Minor philosopher,Aristotelean
+1136,GR137 Aristobolus of Alexandria,"Jewish theol, allegorized Greek myths +",-200,Minor philosopher,
+1137,GR138 Boethus,Stoic,-200,Minor philosopher,Stoic
+1138,GR139 Apollodorus of Seleucia,"Stoic, rhetor",-200,Minor philosopher,Stoic/rhetorician
+1139,GR140 Apollodorus of Athens,same,-200,Minor philosopher,Stoic/rhetorician
+1140,GR141 Archedemus of Tarsus,"f. Stoic school, Babylon",-200,Minor philosopher,Stoic
+1141,GR142 Antipater of Tarsus,Stoic scholarch,-200,Minor philosopher,Stoic
+1142,"GR143-144 Alceus, Philiscus",Epicureans at Rome,-200,Minor philosopher,Epicurean
+1143,GR145 Protarchus of Barghilia,Epicurean,-200,Minor philosopher,Epicurean
+1144,GR146 Demetrius of Laconia,Epicurean,-200,Minor philosopher,Epicurean
+1145,"GR147 Apollodorus ""the Tyrant of the Garden""",Epicurean,-200,Minor philosopher,Epicurean
+1146,GR148 Philonides of Laodicea,"Syria Epicurean, math",-200,Minor philosopher,Epicurean
+1147,GR149 Clitomachus,Academic/Skeptic,-200,Minor philosopher,Academic
+1148,GR150 Metrodorus of Stratonicea,"Academic, from Epicurean school",-200,Minor philosopher,Academic
+1149,GR151? Meleagra of Gadara,Cynic +,-200,Minor philosopher,
+1150,GR152 Charmadas,Academic/rhetor,-200,Minor philosopher,Academic/rhetorician
+1151,GR153 Mnesarchus,Stoic,-200,Minor philosopher,Stoic
+1152,GR154 Polybius,historian,-200,Non-philosopher,
+1153,GR155 Heraclides of Tarentum,empiricist medicine,-100,Minor philosopher,empirical school
+1154,GR156 Dio of Alexandria,Academic,-100,Minor philosopher,Academic
+1155,GR157 Aristus,"Academic, brother of Antiochus of Ascalon, successor",-100,Minor philosopher,Academic
+1156,GR158 Theomnestus,Academic +,-100,Minor philosopher,
+1157,GR159 L. Aelius Stilo,"Stoic, rhetor",-100,Minor philosopher,Stoic/rhetorician
+1158,GR160 Varro,"eclectic, Stoic",-100,Minor philosopher,Stoic/eclectic
+1159,GR161 Lucullus,"politician, patron",-100,Non-philosopher,politician
+1160,GR162 Rutilius Rufus,Stoic,-100,Minor philosopher,Stoic
+1161,GR163 Alexander Polyhister,"Pythagorean, eclectic",-100,Minor philosopher,Pythagorean/eclectic
+1162,GR164 Nigidius Figulus,Pythagorean,-100,Minor philosopher,Neo-Pythagorean
+1163,GR165 Asclepiades of Bythynia,"medicine, Epicurean, Rome",-100,Minor philosopher,Epicurean/medical
+1164,GR166 Zeno of Sidon,"Epicurean, math",-100,Minor philosopher,Epicurean
+1165,GR167 Phaedrus,"Epicurean, Rome",-100,Minor philosopher,Epicurean
+1166,GR168 Patronus,same,-100,Minor philosopher,Epicurean
+1167,GR169 Amalfinus,"Epicurean, Italy",-100,Minor philosopher,Epicurean
+1168,GR170 Sciro,"Epicurean, Rome",-100,Minor philosopher,Epicurean
+1169,GR171 Calpurnius Piso,Julius Caesar's father-in-law,-100,Non-philosopher,
+1170,GR172 Philostratus,"rhetor, skeptic, Academic-Sophist",-100,Minor philosopher,
+1171,GR173 Tyrranio,edited Aristotle's manuscripts,-100,Minor philosopher,Aristotelean
+1172,GR174 Andronicus of Rhodes,same,-100,Minor philosopher,Aristotelean
+1173,GR175 Xenarchus,Academic,-100,Minor philosopher,Aristotelean
+1174,GR176 Arius Didymus,Academic/Stoic/Aristotelean,-100,Minor philosopher,Stoic/Aristotelean
+1175,GR177 Athenodorus Cananites,Stoic,-100,Minor philosopher,Stoic
+1176,GR178 Strabo,"Stoic, geographer, historian",-100,Minor philosopher,Stoic
+1177,GR179 Boethus of Sidon,Aristotelean,-100,Minor philosopher,Aristotelean
+1178,GR180 Eudorus,"Platonist, neo-Pythagorean, Alexandria",1,Minor philosopher,Platonic/Neo-Pythagorean
+1179,GR181 Anaxilaus of Larissa,"Pythagorean, occultist +",1,Minor philosopher,
+1180,GR182 Quintus Sextus,Stoic,1,Minor philosopher,Stoic
+1181,GR183 Sotion,"Stoic, neo-Pythagorean, eclectic doxographer, Alexandria",,Minor philosopher,Stoic/Pythagorean/eclectic
+1182,GR183a? Agrippa,"Skeptic, ca. 1-200 C. E.",1,Minor philosopher,
+1183,GR184 Thrasyllus,neo-Pythagorean/Platonist,1,Minor philosopher,Platonic/Neo-Pythagorean
+1184,GR185 Potamo of Alexandria,"Platonist, eclectic",1,Minor philosopher,Platonic/eclectic
+1185,GR186 C. Musonius Rufus,Stoic,1,Minor philosopher,Stoic
+1186,GR187 Epaphroditus,"Nero's secretary, Epictetus' owner",1,Non-philosopher,
+1187,GR188 Dio Chrysostom,rhetor/Stoic,1,Minor philosopher,Stoic/rhetorician
+1188,GR189 L. Annaeus Cornutus,Stoic,1,Minor philosopher,Stoic
+1189,GR190 Perseus,poet,1,Non-philosopher,poet
+1190,GR191 Lucan,poet,1,Non-philosopher,poet
+1191,GR192 Demetrius,Cynic +,1,Minor philosopher,
+1192,GR193 Agathinos,medicine,1,Minor philosopher,medical
+1193,GR194 Archigenes,"medicine, eclectic, Stoic",1,Minor philosopher,"medical, Stoic"
+1194,GR195 Simon Magus,Gnostic +,1,Minor philosopher,
+1195,GR196 Apollonius of Tyana,"Pythagorean, occultist +",1,Minor philosopher,
+1196,GR197 Ammonius of Alexandria,Platonist,1,Minor philosopher,Platonic
+1197,GR198 Lucius,Pythagorean,,Minor philosopher,Pythagorean
+1198,GR199 Nicostratus,"Platonist, Stoic, rhetor, anti-Aristotelean",1,Minor philosopher,Platonic/rhetorician
+1199,GR200 Flavius Arrianus,Stoic,100,Minor philosopher,Stoic
+1200,GR201 Magnus Ephesius,medicine,100,Minor philosopher,Skeptic/medical
+1201,GR202 Soranus of Ephesus,Methodist medicine,100,Minor philosopher,medical
+1202,GR203 Favorinus,"rhetor, Skeptic",100,Minor philosopher,rhetorician
+1203,GR204 Stalilius Attalius,medicine,100,Minor philosopher,medical
+1204,GR205 Theodas,Empiricist medicine +,100,Minor philosopher,
+1205,GR206 Menodotus of Nicomedia,"Skeptic, Empiricist medicine",100,Minor philosopher,medical
+1206,GR207 Heroditus of Tarsus,Empiricist medicine,100,Minor philosopher,medical
+1207,GR208 Aristocles,"Aristotelean, Stoic, Platonist",100,Minor philosopher,Aristotelean/Stoic/Platonic
+1208,GR209 Gaius,Aristotelean,100,Minor philosopher,Aristotelean
+1209,GR210 Numisianus,,100,Minor philosopher,
+1210,GR211 Satyrus,medicine,100,Minor philosopher,medical
+1211,GR212 Pelops,medicine,100,Minor philosopher,medical
+1212,GR213 Hadrian of Tyre,rhetor,100,Minor philosopher,rhetorician
+1213,GR214 Demetrius of Alexandria,rhetor,100,Minor philosopher,rhetorician
+1214,GR215 Diognetus,Stoic,100,Minor philosopher,Stoic
+1215,GR216 M. Cornelius Fronto,"rhetor, anti-phi]",100,Non-philosopher,rhetorician
+1216,GR217 Athenagoras,Christian,100,Minor philosopher,Christian
+1217,GR218 Demonax,Stoic,100,Minor philosopher,Stoic
+1218,GR219 Lucian of Samosata,Skeptic/eclectic,100,Minor philosopher,eclectic/Skeptic
+1219,GR220? Saturninus of Antioch,Gnostic +,100,Minor philosopher,
+1220,GR221? Carpocrates of AlexandriaGnostic +,100,0,Minor philosopher,
+1221,GR222? Cerdon the Syrian,Christian/Gnostic +,100,Minor philosopher,
+1222,GR223? Cerinthus,Christian/Gnostic +,100,Minor philosopher,
+1223,GR224 Basilides of Syria,"Gnostic, Alexandria +",100,Minor philosopher,
+1224,GR225? Demonax of Cyprus,popular Cynic +,100,Minor philosopher,
+1225,GR226? Oenomaus of Gadara,same +,100,Minor philosopher,
+1226,GR227? Perigrinus Proteus,"same, ex-Christian +",100,Minor philosopher,
+1227,GR228? pseudo-Pythagorean texts,,100,Minor philosopher,
+1228,GR229? Corpus Hermeticum,anon. text +,150,Minor philosopher,
+1229,GR230? Cronius,neo-Pythagorean +,150,Minor philosopher,
+1230,GR231 Nicomachus of Gerasa,"math, neo-Pythagorean +",150,Minor philosopher,
+1231,GR232 Theon of Smyrna,"math, Platonist +",150,Minor philosopher,
+1232,GR233 Aulus Gellius,"Platonist, Athens",150,Minor philosopher,Platonic
+1233,GR234 Celsus,"Platonist, anti-Christian +",,Minor philosopher,
+1234,GR236 Tatian,Christian +,,Minor philosopher,Christian
+1235,GR237? Aristides,Christian apologist +,150,Minor philosopher,
+1236,GR238 Melitto of Sardis,same +,150,Minor philosopher,
+1237,GR239? Apollinaris of Hieropolis,same +,150,Minor philosopher,
+1238,GR240 Marcion,"Christian/Gnostic, Rome +",150,Minor philosopher,
+1239,GR242 Panaenus,"ex-Stoic, Christian",150,Minor philosopher,Christian/Stoic
+1240,GR243 Theophilus,Christian,150,Minor philosopher,
+1241,GR244 Iranaeus,"Christian, anti-Gnostic",150,Minor philosopher,Christian
+1242,GR245 Hippolytus,"same, Rome",150,Minor philosopher,Christian
+1243,GR246 Julianus,"Gnostic, occultist, forged Chaldean Oracles +",150,Minor philosopher,
+1244,GR247 Bardesanes of Mesopotamia,Gnostic +,150,Minor philosopher,
+1245,GR248 Marcus,"Gnostic, occultist, disciple of Valentinus",150,Minor philosopher,Gnostic/occultist
+1246,GR249 Theodotus,"Gnostic, disciple of Valentinus",150,Minor philosopher,Gnostic/occultist
+1247,GR250 Ptolemaeus,same,150,Minor philosopher,Gnostic/occultist
+1248,GR251 Aelius Aristides,rhetor,150,Non-philosopher,rhetorician
+1249,GR252 Harpocration of Argos,neo-Pythagorean eclectic,150,Minor philosopher,Neo-Pythagorean/eclectic
+1250,GR253 Maximus of Tyre,rhetor/Platonist/Aristotelean/ eclectic +,150,Minor philosopher,
+1251,GR254 Severus,Platonist/Stoic anti-Aristotelean +,150,Minor philosopher,
+1252,GR255 Saturninus,"Skeptic, medicine",200,Minor philosopher,Skeptic/medical
+1253,GR256 Tertullian,"Christian, anti-phil, anti-Gnostic",200,Minor philosopher,Christian
+1254,GR257 Minucius Felix,Christian +,200,Minor philosopher,
+1255,GR258 Diogenes of Oenoanda,Epicurean +,200,Minor philosopher,
+1256,GR259 Diogenes Laertius,doxographer +,200,Minor philosopher,
+1257,GR260 On the World anon. text,Stoic/Aristotelean syncretism +,200,Minor philosopher,
+1258,GR261 Ammonius Saccas,"neo-Pythagorean? Platonist? eclectic, Alexandria",200,Minor philosopher,Platonic/Pythagorean/eclectic
+1259,GR262 Herennius +,,200,Minor philosopher,
+1260,GR263 Cassius Longinus,"rhetor, Platonist, Athens",200,Minor philosopher,Platonic/rhetorician
+1261,GR264 Origen the Pagan,Platonist,200,Minor philosopher,Platonic
+1262,GR265 Olympus of Alexandria,star magic,200,Minor philosopher,occult
+1263,GR266 Amelius Gentilianus,expositor of Plotinus,200,Minor philosopher,Neoplatonic
+1264,GR267 Typho,"Stoic, Platonist",200,Minor philosopher,"Stoic, Platonic"
+1265,GR268 Anatolius of Alexandria,Christian/Aristotelean/math,200,Minor philosopher,Christian/Aristotelean/Pythagorean/mathematician
+1266,GR269 Lucian,"Christian, Antioch",200,Minor philosopher,Christian
+1267,GR270 Arnobius,Christian +,300,Minor philosopher,
+1268,GR271 Lactantius,Christian +,300,Minor philosopher,
+1269,GR272 Eusebius,"Christian, anti-Porphyry",300,Minor philosopher,Christian
+1270,GR273 Gedalius,Neoplatonist,300,Minor philosopher,Neoplatonic
+1271,GR274 Chrysaorinus,Neoplatonist,300,Minor philosopher,Neoplatonic
+1272,GR275 Doxippus,"Platonist/Aristotelean/pagan theol, Syria",300,Minor philosopher,Neoplatonic/Aristotelean
+1273,GR276 Eugenius,father of 278,300,Minor philosopher,
+1274,GR277 Theodorus of Asine,"Platonist, Athens",300,Minor philosopher,
+1275,GR278 Themistius,"Aristotelean/Platonist, Constantinople",300,Minor philosopher,Platonic/Aristotelean
+1276,GR279 Sallustius,"Syrian Neoplatonist, pagan catechism, Pergamum",300,Minor philosopher,
+1277,GR280 Sosipatra,"occultist, Pergamum, woman",300,Minor philosopher,occult
+1278,GR281 Aedisius,"Neoplatonist, occultist, Athens",300,Minor philosopher,Platonic/occult
+1279,GR282 Maximus,occultist,300,Minor philosopher,occult
+1280,GR283 Libanius,rhetor,300,Non-philosopher,rhetorician
+1281,GR284 Himerius,rhetor,300,Non-philosopher,rhetorician
+1282,GR285 John Chrysostom,"Christian, Origenist, Antioch/Constantinople",300,Minor philosopher,Christian
+1283,GR286 St. Basil of Cappadocia,Christian/Platonist,300,Minor philosopher,Christian/Platonic
+1284,GR287 Apollinaris,"Christian, opposite heresy from Arius +",300,Minor philosopher,
+1285,GR288 Simplicianus,Christian/Neoplatonist,300,Minor philosopher,Christian/Neoplatonic
+1286,GR289 Macrobius,Platonist/neo-Pythagorean +,300,Minor philosopher,
+1287,GR290 Martianus Capella,"Platonist, encyclopedist +",300,Minor philosopher,
+1288,GR293 Heraiscus,"religious syncretism, Alexandria",300,Minor philosopher,occult
+1289,GR294 Asclepiades,"same, brother of 293",300,Minor philosopher,occult
+1290,GR292 Theon of Alexandriamath,Platonist,400,Minor philosopher,"mathematician, Platonic"
+1291,GR295 Isidorus,"Neoplatonist, Alexandria",400,Minor philosopher,Neoplatonic
+1292,GR296 Hypatia,"math, Neoplatonist, woman",400,Minor philosopher,"mathematician, Platonic"
+1293,GR297 Synesius,"math, Platonist, later Christian",400,Minor philosopher,"mathematician, Platonic"
+1294,GR298 Plutarch of Athens,Neoplatonist/Aristotelean,400,Minor philosopher,Neoplatonic/Aristotelean
+1295,"GR299 daughter of 298, theurgy",,400,Minor philosopher,occult
+1296,GR300 Syrianus,"Platonist/Neoplatonist, Aristotelean, Athens",400,Minor philosopher,Platonic/Neoplatonic/Aristotelean
+1297,GR301 Domninus of Larissa,math/occultist/Neoplatonist,400,Minor philosopher,Neoplatonic/occultist/mathemetician
+1298,GR302 Hierocles,intro Neoplatonist at Alexandria,400,Minor philosopher,Neoplatonic
+1299,GR303 Marinus,"math, Neoplatonist scholarch, Athens",400,Minor philosopher,"Neoplatonic, mathematician"
+1300,"GR304 Ammonius, son of Hermias",Platonist/Aristotelean/math/astron,400,Minor philosopher,Platonic/Aristotelean/mathematician
+1301,GR305 Damascius,"Neoplatonist, Athens",400,Minor philosopher,Neoplatonic
+1302,GR306 Simplicius,"Neoplatonist, Athens",400,Minor philosopher,Neoplatonic
+1303,GR307 Olympiodorus,,400,Minor philosopher,
+1304,GR308 Aeneas,"Christian/Platonist, Gaza",400,Minor philosopher,Christian/Neoplatonic
+1305,GR309 George of Scythopolis,"Christian, anti-heresies +",500,Minor philosopher,
+1306,GR310 John of Scythopolis,same +,500,Minor philosopher,
+1307,GR311 Zacharias,"Christian/I'latonist, anti-304",500,Minor philosopher,Christian/Platonic
+1308,GR312 Procopius,,500,Minor philosopher,Christian
+1309,GR313 Cassiodorus,"Christian, handbook writer, Italy",500,Minor philosopher,encyclopedist
+1310,GR314 Leander,,500,Minor philosopher,
+1311,GR315 Isidore of Sevelle,encyclopedist,500,Minor philosopher,encyclopedist
+1312,GR316 Stephanus of Alexandria.,"Aristotelean/occultist/math, Byzantium",500,Minor philosopher,Aristotelean/occultist/mathematician
+1313,GR317 St. Maximus,"Platonist/Christian, Byzantium",500,Minor philosopher,Christian/Platonic
+1314,x36-4,,200,Minor philosopher,Gnostic
